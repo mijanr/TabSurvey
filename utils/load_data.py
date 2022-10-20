@@ -105,12 +105,12 @@ def load_data(args):
         X = df.drop(label_col, axis=1).to_numpy()
         y = df[label_col].to_numpy()
     elif args.dataset == 'k80':
-        path = "/home/pops/myProjects/Upwork/TabSurvey/data/simple.k80.s221.50k.csv.gz"
+        path = "./data/simple.k80.s221.50k.csv.gz"
         df = pd.read_csv(path, compression='gzip', header=0, sep=' ', quotechar='"')
         X = df.iloc[:, :-1].to_numpy()
         y = df.iloc[:, -1].to_numpy()
     elif args.dataset == 'k160':
-        path = "../data/simple.k160.s221.50k.csv.gz"
+        path = "./data/simple.k160.s221.50k.csv.gz"
         df = pd.read_csv(path, compression='gzip', header=0, sep=' ', quotechar='"')
         X = df.iloc[:, :-1].to_numpy()
         y = df.iloc[:, -1].to_numpy()
