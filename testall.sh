@@ -1,7 +1,7 @@
 #!/bin/bash
 
-N_TRIALS=2
-EPOCHS=3
+# N_TRIALS=2
+# EPOCHS=3
 
 SKLEARN_ENV="sklearn"
 GBDT_ENV="gbdt"
@@ -38,10 +38,11 @@ MODELS=( ["LinearModel"]=$SKLEARN_ENV
          ["DANet"]=$TORCH_ENV
           )
 
-CONFIGS=( "config/adult.yml"
-          "config/covertype.yml"
-          "config/california_housing.yml"
-          "config/higgs.yml"
+CONFIGS=( "config/k80.yml"
+          #"config/adult.yml"
+          # "config/covertype.yml"
+          # "config/california_housing.yml"
+          # "config/higgs.yml"
           )
 
 # conda init bash
@@ -55,7 +56,7 @@ for config in "${CONFIGS[@]}"; do
 
     conda activate "${MODELS[$model]}"
 
-    python train.py --config "$config" --model_name "$model" --n_trials $N_TRIALS --epochs $EPOCHS
+    python train.py --config "$config" --model_name "$model" 
 
     conda deactivate
 
