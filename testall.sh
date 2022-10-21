@@ -38,7 +38,8 @@ MODELS=( ["LinearModel"]=$SKLEARN_ENV
          ["DANet"]=$TORCH_ENV
           )
 
-CONFIGS=( "config/k80.yml"
+CONFIGS=( #"config/k80.yml"
+          "config/k160.yml"
           #"config/adult.yml"
           # "config/covertype.yml"
           # "config/california_housing.yml"
