@@ -38,7 +38,7 @@ python -m ipykernel install --user --name=torch
 conda install -n torch -y -c conda-forge configargparse
 conda install -n torch -y scikit-learn pandas matplotlib shap
 conda install -n torch -y -c pytorch captum
-python -m pip install requests qhoptim lightgbm==3.3.1 einops pytorch-tabnet einops optuna nam h5py
+python -m pip install requests qhoptim lightgbm==3.3.1 einops pytorch-tabnet einops optuna nam h5py yacs
 
 #############################################################################################################
 
