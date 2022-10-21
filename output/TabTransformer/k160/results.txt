@@ -1,0 +1,18 @@
+2022-10-20 23:29:45.490536
+TabTransformer - k160
+
+Log Loss - mean: 0.69373
+Log Loss - std: 0.00019
+AUC - mean: 0.49930
+AUC - std: 0.00481
+Accuracy - mean: 0.49747
+Accuracy - std: 0.00477
+F1 score - mean: 0.49747
+F1 score - std: 0.00477
+
+Train time: 2446.562239
+Test time: 1.952286
+
+Best Parameters: {'depth': 12, 'dim': 256, 'dropout': 0.2, 'heads': 2, 'learning_rate': -6, 'weight_decay': -3}
+
+

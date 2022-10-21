@@ -1,0 +1,18 @@
+2022-10-20 23:02:59.205710
+VIME - k160
+
+Log Loss - mean: 0.69315
+Log Loss - std: 0.00000
+AUC - mean: 0.50581
+AUC - std: 0.00420
+Accuracy - mean: 0.49989
+Accuracy - std: 0.00005
+F1 score - mean: 0.49989
+F1 score - std: 0.00005
+
+Train time: 955.437696
+Test time: 1.224972
+
+Best Parameters: {'K': 20, 'alpha': 1.6167384472623296, 'beta': 8.675103496880748, 'p_m': 0.2852161564526575}
+
+

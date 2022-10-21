@@ -1,0 +1,32 @@
+2022-10-21 02:20:30.278702
+Parameters: {'dim': 128, 'depth': 2, 'heads': 8, 'dropout': 0.2}
+
+Log Loss - mean: 0.69318
+Log Loss - std: 0.00007
+AUC - mean: 0.50503
+AUC - std: 0.00672
+Accuracy - mean: 0.50051
+Accuracy - std: 0.00168
+F1 score - mean: 0.50051
+F1 score - std: 0.00168
+
+Train time: 20638.398009
+Test time: 1.454521
+
+---------------------------------------
+2022-10-21 07:57:38.831559
+Parameters: {'dim': 128, 'depth': 6, 'heads': 2, 'dropout': 0.3}
+
+Log Loss - mean: 0.69319
+Log Loss - std: 0.00003
+AUC - mean: 0.49856
+AUC - std: 0.00838
+Accuracy - mean: 0.50005
+Accuracy - std: 0.00008
+F1 score - mean: 0.50005
+F1 score - std: 0.00008
+
+Train time: 47727.540154
+Test time: 1.581549
+
+---------------------------------------

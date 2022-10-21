@@ -1,0 +1,16 @@
+2022-10-21 11:23:10.548007
+Parameters: {'hidden_dim': 60, 'n_layers': 3, 'learning_rate': 0.0006403227105634599}
+
+Log Loss - mean: 0.69326
+Log Loss - std: 0.00008
+AUC - mean: 0.49705
+AUC - std: 0.00222
+Accuracy - mean: 0.49921
+Accuracy - std: 0.00360
+F1 score - mean: 0.49921
+F1 score - std: 0.00360
+
+Train time: 105.069776
+Test time: 1.457227
+
+---------------------------------------

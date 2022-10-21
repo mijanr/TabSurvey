@@ -1,0 +1,32 @@
+2022-10-21 11:17:06.227798
+Parameters: {'max_depth': 10, 'alpha': 0.0012763132725937291, 'lambda': 3.467392476713409e-07, 'eta': 0.10440882730097897, 'verbosity': 1, 'tree_method': 'gpu_hist', 'gpu_id': 0, 'objective': 'binary:logistic', 'eval_metric': 'auc'}
+
+Log Loss - mean: 0.71278
+Log Loss - std: 0.00125
+AUC - mean: 0.49726
+AUC - std: 0.00320
+Accuracy - mean: 0.49845
+Accuracy - std: 0.00282
+F1 score - mean: 0.49845
+F1 score - std: 0.00282
+
+Train time: 26.305380
+Test time: 0.110918
+
+---------------------------------------
+2022-10-21 11:17:07.375982
+Parameters: {'max_depth': 2, 'alpha': 2.0663067669348906e-05, 'lambda': 7.699633290175462e-08, 'eta': 0.17781257291667774, 'verbosity': 1, 'tree_method': 'gpu_hist', 'gpu_id': 0, 'objective': 'binary:logistic', 'eval_metric': 'auc'}
+
+Log Loss - mean: 0.69360
+Log Loss - std: 0.00025
+AUC - mean: 0.49645
+AUC - std: 0.00441
+Accuracy - mean: 0.49669
+Accuracy - std: 0.00480
+F1 score - mean: 0.49669
+F1 score - std: 0.00480
+
+Train time: 3.789182
+Test time: 0.424801
+
+---------------------------------------

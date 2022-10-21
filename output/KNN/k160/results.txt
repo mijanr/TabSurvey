@@ -1,0 +1,18 @@
+2022-10-20 20:33:20.963272
+KNN - k160
+
+Log Loss - mean: 0.82474
+Log Loss - std: 0.00887
+AUC - mean: 0.50036
+AUC - std: 0.00462
+Accuracy - mean: 0.50059
+Accuracy - std: 0.00531
+F1 score - mean: 0.50059
+F1 score - std: 0.00531
+
+Train time: 0.006064
+Test time: 15.317689
+
+Best Parameters: {'n_neighbors': 9}
+
+

@@ -1,0 +1,18 @@
+2022-10-21 10:10:03.716818
+SAINT - k160
+
+Log Loss - mean: 0.69320
+Log Loss - std: 0.00006
+AUC - mean: 0.49924
+AUC - std: 0.00284
+Accuracy - mean: 0.49867
+Accuracy - std: 0.00192
+F1 score - mean: 0.49867
+F1 score - std: 0.00192
+
+Train time: 18715.485156
+Test time: 1.352741
+
+Best Parameters: {'depth': 2, 'dim': 128, 'dropout': 0.2, 'heads': 8}
+
+

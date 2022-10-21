@@ -1,0 +1,18 @@
+2022-10-21 11:08:55.658959
+TabNet - k160
+
+Log Loss - mean: 0.69304
+Log Loss - std: 0.00014
+AUC - mean: 0.50595
+AUC - std: 0.00579
+Accuracy - mean: 0.50293
+Accuracy - std: 0.00389
+F1 score - mean: 0.50293
+F1 score - std: 0.00389
+
+Train time: 327.551850
+Test time: 0.571333
+
+Best Parameters: {'cat_emb_dim': 2, 'gamma': 1.280877392236343, 'mask_type': 'sparsemax', 'momentum': 0.10514167366614537, 'n_d': 60, 'n_independent': 1, 'n_shared': 5, 'n_steps': 5, 'n_a': 60, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cuda')}
+
+

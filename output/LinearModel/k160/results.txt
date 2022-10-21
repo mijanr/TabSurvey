@@ -1,0 +1,14 @@
+2022-10-20 23:03:12.780396
+LinearModel - k160
+
+Log Loss - mean: 0.69525
+Log Loss - std: 0.00039
+AUC - mean: 0.49980
+AUC - std: 0.00268
+Accuracy - mean: 0.49991
+Accuracy - std: 0.00241
+F1 score - mean: 0.49991
+F1 score - std: 0.00241
+
+Train time: 0.029145
+Test time: 0.002469
