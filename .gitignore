@@ -6,6 +6,11 @@ __pycache/
 
 catboost_info/
 logs/
-output/
+#output/
+*.npy
+*.pt
+*.pkl
+
+
 
 *.db
