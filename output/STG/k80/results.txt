@@ -1,0 +1,18 @@
+2022-10-23 12:04:54.713618
+STG - k80
+
+Log Loss - mean: 0.69315
+Log Loss - std: 0.00012
+AUC - mean: 0.50392
+AUC - std: 0.00657
+Accuracy - mean: 0.50297
+Accuracy - std: 0.00667
+F1 score - mean: 0.50297
+F1 score - std: 0.00667
+
+Train time: 17.127951
+Test time: 0.035014
+
+Best Parameters: {'hidden_dims': [60, 20], 'lam': 0.14630652973332392, 'learning_rate': 0.011951305197356668}
+
+
