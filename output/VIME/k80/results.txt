@@ -1,0 +1,18 @@
+2022-10-22 10:25:17.140670
+VIME - k80
+
+Log Loss - mean: 0.69312
+Log Loss - std: 0.00006
+AUC - mean: 0.50477
+AUC - std: 0.00463
+Accuracy - mean: 0.50335
+Accuracy - std: 0.00164
+F1 score - mean: 0.50335
+F1 score - std: 0.00164
+
+Train time: 384.241185
+Test time: 1.852996
+
+Best Parameters: {'K': 3, 'alpha': 0.5757485995856764, 'beta': 2.115337772186811, 'p_m': 0.8648340641546275}
+
+

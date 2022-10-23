@@ -1,0 +1,32 @@
+2022-10-21 19:46:34.385473
+Parameters: {'lr': 0.022201852282391975, 'output_regularization': 0.0021974707559262673, 'dropout': 0.10093183718427695, 'feature_dropout': 0.11416284954863583}
+
+Log Loss - mean: 0.70008
+Log Loss - std: 0.00675
+AUC - mean: 0.50000
+AUC - std: 0.00000
+Accuracy - mean: 0.50007
+Accuracy - std: 0.00006
+F1 score - mean: 0.50007
+F1 score - std: 0.00006
+
+Train time: 1990.508733
+Test time: 2.978340
+
+---------------------------------------
+2022-10-21 23:05:10.618713
+Parameters: {'lr': 0.007260179469212617, 'output_regularization': 0.0028017120892450927, 'dropout': 0.8318945033226568, 'feature_dropout': 0.06323221069965422}
+
+Log Loss - mean: 0.69549
+Log Loss - std: 0.00153
+AUC - mean: 0.50000
+AUC - std: 0.00000
+Accuracy - mean: 0.50005
+Accuracy - std: 0.00008
+F1 score - mean: 0.50005
+F1 score - std: 0.00008
+
+Train time: 2543.733153
+Test time: 2.995788
+
+---------------------------------------

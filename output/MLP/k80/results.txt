@@ -1,0 +1,18 @@
+2022-10-22 21:15:49.328022
+MLP - k80
+
+Log Loss - mean: 0.69314
+Log Loss - std: 0.00002
+AUC - mean: 0.50274
+AUC - std: 0.00348
+Accuracy - mean: 0.50215
+Accuracy - std: 0.00114
+F1 score - mean: 0.50215
+F1 score - std: 0.00114
+
+Train time: 112.008484
+Test time: 1.820006
+
+Best Parameters: {'hidden_dim': 26, 'learning_rate': 0.000843631053193698, 'n_layers': 4}
+
+

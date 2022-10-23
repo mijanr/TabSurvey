@@ -1,0 +1,18 @@
+2022-10-22 21:10:31.660832
+DeepFM - k80
+
+Log Loss - mean: 0.69621
+Log Loss - std: 0.00130
+AUC - mean: 0.50299
+AUC - std: 0.00421
+Accuracy - mean: 0.50199
+Accuracy - std: 0.00405
+F1 score - mean: 0.50199
+F1 score - std: 0.00405
+
+Train time: 105.413585
+Test time: 0.692371
+
+Best Parameters: {'dnn_dropout': 0.5864944335694778}
+
+

@@ -1,0 +1,32 @@
+2022-10-22 09:44:06.672525
+Parameters: {'n_neighbors': 27}
+
+Log Loss - mean: 0.71484
+Log Loss - std: 0.00207
+AUC - mean: 0.49533
+AUC - std: 0.00574
+Accuracy - mean: 0.49589
+Accuracy - std: 0.00509
+F1 score - mean: 0.49589
+F1 score - std: 0.00509
+
+Train time: 0.006302
+Test time: 17.993004
+
+---------------------------------------
+2022-10-22 09:44:15.285163
+Parameters: {'n_neighbors': 9}
+
+Log Loss - mean: 0.83137
+Log Loss - std: 0.00626
+AUC - mean: 0.49921
+AUC - std: 0.00593
+Accuracy - mean: 0.49911
+Accuracy - std: 0.00668
+F1 score - mean: 0.49911
+F1 score - std: 0.00668
+
+Train time: 0.006617
+Test time: 14.769938
+
+---------------------------------------

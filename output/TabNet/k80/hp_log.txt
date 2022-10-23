@@ -1,0 +1,32 @@
+2022-10-22 19:51:59.975082
+Parameters: {'n_d': 55, 'n_steps': 6, 'gamma': 1.9263007540703114, 'cat_emb_dim': 3, 'n_independent': 1, 'n_shared': 1, 'momentum': 0.059938834616781386, 'mask_type': 'sparsemax', 'n_a': 55, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cuda')}
+
+Log Loss - mean: 0.69304
+Log Loss - std: 0.00008
+AUC - mean: 0.50670
+AUC - std: 0.00290
+Accuracy - mean: 0.50181
+Accuracy - std: 0.00279
+F1 score - mean: 0.50181
+F1 score - std: 0.00279
+
+Train time: 263.563314
+Test time: 0.406313
+
+---------------------------------------
+2022-10-22 20:27:21.502934
+Parameters: {'n_d': 25, 'n_steps': 10, 'gamma': 1.8839725523433715, 'cat_emb_dim': 3, 'n_independent': 1, 'n_shared': 3, 'momentum': 0.0023124679281174144, 'mask_type': 'sparsemax', 'n_a': 25, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cuda')}
+
+Log Loss - mean: 0.69308
+Log Loss - std: 0.00004
+AUC - mean: 0.50709
+AUC - std: 0.00351
+Accuracy - mean: 0.50239
+Accuracy - std: 0.00297
+F1 score - mean: 0.50239
+F1 score - std: 0.00297
+
+Train time: 573.340733
+Test time: 0.878078
+
+---------------------------------------

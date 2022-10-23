@@ -1,0 +1,18 @@
+2022-10-22 10:43:54.330612
+NODE - k80
+
+Log Loss - mean: 0.69314
+Log Loss - std: 0.00003
+AUC - mean: 0.50249
+AUC - std: 0.00287
+Accuracy - mean: 0.50329
+Accuracy - std: 0.00201
+F1 score - mean: 0.50329
+F1 score - std: 0.00201
+
+Train time: 47.262641
+Test time: 3.591441
+
+Best Parameters: {'num_layers': 4, 'total_tree_count': 2048, 'tree_depth': 6, 'tree_output_dim': 2}
+
+

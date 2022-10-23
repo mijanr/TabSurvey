@@ -1,0 +1,18 @@
+2022-10-22 21:10:45.418673
+XGBoost - k80
+
+Log Loss - mean: 0.69353
+Log Loss - std: 0.00030
+AUC - mean: 0.49958
+AUC - std: 0.00554
+Accuracy - mean: 0.50055
+Accuracy - std: 0.00300
+F1 score - mean: 0.50055
+F1 score - std: 0.00300
+
+Train time: 6.518326
+Test time: 0.178240
+
+Best Parameters: {'alpha': 0.26346595138280954, 'eta': 0.03197024699671534, 'lambda': 3.935817689946518e-07, 'max_depth': 6, 'verbosity': 1, 'tree_method': 'gpu_hist', 'gpu_id': 0, 'objective': 'binary:logistic', 'eval_metric': 'auc'}
+
+

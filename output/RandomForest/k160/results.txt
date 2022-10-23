@@ -1,0 +1,18 @@
+2022-10-22 01:52:15.363805
+RandomForest - k160
+
+Log Loss - mean: 0.69370
+Log Loss - std: 0.00020
+AUC - mean: 0.49896
+AUC - std: 0.00361
+Accuracy - mean: 0.49907
+Accuracy - std: 0.00435
+F1 score - mean: 0.49907
+F1 score - std: 0.00435
+
+Train time: 0.374916
+Test time: 0.015491
+
+Best Parameters: {'max_depth': 6, 'n_estimators': 13}
+
+

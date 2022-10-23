@@ -1,0 +1,36 @@
+2022-10-21 15:12:39.484252
+DecisionTree - k160
+
+Log Loss - mean: 0.74897
+Log Loss - std: 0.00265
+AUC - mean: 0.50053
+AUC - std: 0.00401
+Accuracy - mean: 0.49883
+Accuracy - std: 0.00240
+F1 score - mean: 0.49883
+F1 score - std: 0.00240
+
+Train time: 0.454807
+Test time: 0.002236
+
+Best Parameters: {'max_depth': 9}
+
+
+2022-10-21 15:21:02.469731
+DecisionTree - k160
+
+Log Loss - mean: 0.74881
+Log Loss - std: 0.00259
+AUC - mean: 0.50072
+AUC - std: 0.00395
+Accuracy - mean: 0.49877
+Accuracy - std: 0.00237
+F1 score - mean: 0.49877
+F1 score - std: 0.00237
+
+Train time: 0.445515
+Test time: 0.002169
+
+Best Parameters: {'max_depth': 9}
+
+

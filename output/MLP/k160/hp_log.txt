@@ -14,3 +14,35 @@ Train time: 105.069776
 Test time: 1.457227
 
 ---------------------------------------
+2022-10-21 15:09:35.389637
+Parameters: {'hidden_dim': 68, 'n_layers': 3, 'learning_rate': 0.0008007976915195554}
+
+Log Loss - mean: 0.69335
+Log Loss - std: 0.00019
+AUC - mean: 0.50135
+AUC - std: 0.00564
+Accuracy - mean: 0.49877
+Accuracy - std: 0.00169
+F1 score - mean: 0.49877
+F1 score - std: 0.00169
+
+Train time: 107.074600
+Test time: 1.740682
+
+---------------------------------------
+2022-10-21 15:11:07.784848
+Parameters: {'hidden_dim': 74, 'n_layers': 4, 'learning_rate': 0.0007297689859552458}
+
+Log Loss - mean: 0.69320
+Log Loss - std: 0.00004
+AUC - mean: 0.49844
+AUC - std: 0.00433
+Accuracy - mean: 0.49995
+Accuracy - std: 0.00018
+F1 score - mean: 0.49995
+F1 score - std: 0.00018
+
+Train time: 104.195291
+Test time: 1.807974
+
+---------------------------------------

@@ -1,0 +1,18 @@
+2022-10-21 17:11:14.647390
+ModelTree - k160
+
+Log Loss - mean: 0.71452
+Log Loss - std: 0.00296
+AUC - mean: 0.50195
+AUC - std: 0.00755
+Accuracy - mean: 0.50285
+Accuracy - std: 0.00376
+F1 score - mean: 0.50285
+F1 score - std: 0.00376
+
+Train time: 90.280173
+Test time: 0.005787
+
+Best Parameters: {'criterion': 'gradient-renorm-z', 'max_depth': 3}
+
+

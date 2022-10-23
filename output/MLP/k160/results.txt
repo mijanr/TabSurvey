@@ -1,0 +1,18 @@
+2022-10-21 15:12:31.719795
+MLP - k160
+
+Log Loss - mean: 0.69321
+Log Loss - std: 0.00009
+AUC - mean: 0.49929
+AUC - std: 0.00502
+Accuracy - mean: 0.49921
+Accuracy - std: 0.00192
+F1 score - mean: 0.49921
+F1 score - std: 0.00192
+
+Train time: 103.581485
+Test time: 1.842599
+
+Best Parameters: {'hidden_dim': 68, 'learning_rate': 0.0008007976915195554, 'n_layers': 3}
+
+

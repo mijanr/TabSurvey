@@ -1,0 +1,18 @@
+2022-10-22 09:43:55.849478
+LightGBM - k80
+
+Log Loss - mean: 0.69374
+Log Loss - std: 0.00073
+AUC - mean: 0.50895
+AUC - std: 0.00231
+Accuracy - mean: 0.50751
+Accuracy - std: 0.00347
+F1 score - mean: 0.50751
+F1 score - std: 0.00347
+
+Train time: 12.182641
+Test time: 0.150570
+
+Best Parameters: {'lambda_l1': 4.990150176530178e-08, 'lambda_l2': 2.0882606031574379e-07, 'learning_rate': 0.06385160496291808, 'num_leaves': 218, 'verbosity': -1, 'objective': 'binary', 'metric': 'auc'}
+
+

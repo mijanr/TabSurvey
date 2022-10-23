@@ -1,0 +1,18 @@
+2022-10-22 21:15:55.137640
+DecisionTree - k80
+
+Log Loss - mean: 0.69395
+Log Loss - std: 0.00055
+AUC - mean: 0.50641
+AUC - std: 0.00539
+Accuracy - mean: 0.50387
+Accuracy - std: 0.00393
+F1 score - mean: 0.50387
+F1 score - std: 0.00393
+
+Train time: 0.221338
+Test time: 0.002027
+
+Best Parameters: {'max_depth': 4}
+
+
