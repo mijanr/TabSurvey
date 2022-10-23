@@ -1,0 +1,18 @@
+2022-10-23 10:43:57.350380
+NAM - k80
+
+Log Loss - mean: 0.71947
+Log Loss - std: 0.02058
+AUC - mean: 0.50000
+AUC - std: 0.00000
+Accuracy - mean: 0.50135
+Accuracy - std: 0.00178
+F1 score - mean: 0.50135
+F1 score - std: 0.00178
+
+Train time: 2978.576764
+Test time: 2.973481
+
+Best Parameters: {'dropout': 0.7221316927770078, 'feature_dropout': 0.058980845329738775, 'lr': 0.024526771557864372, 'output_regularization': 0.0029122995929032063}
+
+
