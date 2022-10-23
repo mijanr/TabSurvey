@@ -11,6 +11,6 @@ logs/
 *.pt
 *.pkl
 
-
+*.ckpt
 
 *.db
