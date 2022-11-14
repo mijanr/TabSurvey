@@ -1,0 +1,36 @@
+2022-11-13 14:22:36.473155
+NODE - k160_100k
+
+Log Loss - mean: 0.69397
+Log Loss - std: 0.00079
+AUC - mean: 0.49730
+AUC - std: 0.00808
+Accuracy - mean: 0.50684
+Accuracy - std: 0.00874
+F1 score - mean: 0.50684
+F1 score - std: 0.00874
+
+Train time: 3912.148363
+Test time: 36.661533
+
+Best Parameters: {'num_layers': 2, 'total_tree_count': 2048, 'tree_depth': 6, 'tree_output_dim': 2}
+
+
+2022-11-13 18:23:20.116649
+NODE - k160_100k
+
+Log Loss - mean: 0.69676
+Log Loss - std: 0.00247
+AUC - mean: 0.49922
+AUC - std: 0.00722
+Accuracy - mean: 0.50272
+Accuracy - std: 0.00588
+F1 score - mean: 0.50272
+F1 score - std: 0.00588
+
+Train time: 12599.385400
+Test time: 78.703042
+
+Best Parameters: {'num_layers': 4, 'total_tree_count': 2048, 'tree_depth': 8, 'tree_output_dim': 3}
+
+

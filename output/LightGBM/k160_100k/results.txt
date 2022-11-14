@@ -1,0 +1,36 @@
+2022-11-13 12:36:28.714062
+LightGBM - k160_100k
+
+Log Loss - mean: 0.71586
+Log Loss - std: 0.01984
+AUC - mean: 0.51924
+AUC - std: 0.01742
+Accuracy - mean: 0.51401
+Accuracy - std: 0.01357
+F1 score - mean: 0.51401
+F1 score - std: 0.01357
+
+Train time: 3.542964
+Test time: 0.051638
+
+Best Parameters: {'lambda_l1': 0.09203342368490414, 'lambda_l2': 0.010532574912630401, 'learning_rate': 0.23529533570712374, 'num_leaves': 28, 'verbosity': -1, 'objective': 'binary', 'metric': 'auc'}
+
+
+2022-11-13 15:11:22.869230
+LightGBM - k160_100k
+
+Log Loss - mean: 0.73144
+Log Loss - std: 0.02812
+AUC - mean: 0.52043
+AUC - std: 0.02215
+Accuracy - mean: 0.52248
+Accuracy - std: 0.01687
+F1 score - mean: 0.52248
+F1 score - std: 0.01687
+
+Train time: 5.321129
+Test time: 0.063544
+
+Best Parameters: {'lambda_l1': 3.8487297349248894e-06, 'lambda_l2': 4.553180371136928e-06, 'learning_rate': 0.13872851686250615, 'num_leaves': 3845, 'verbosity': -1, 'objective': 'binary', 'metric': 'auc'}
+
+

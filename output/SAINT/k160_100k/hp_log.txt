@@ -1,0 +1,16 @@
+2022-11-13 19:05:05.105232
+Parameters: {'dim': 64, 'depth': 2, 'heads': 4, 'dropout': 0.6}
+
+Log Loss - mean: 0.69370
+Log Loss - std: 0.00097
+AUC - mean: 0.49604
+AUC - std: 0.01012
+Accuracy - mean: 0.50597
+Accuracy - std: 0.00165
+F1 score - mean: 0.50597
+F1 score - std: 0.00165
+
+Train time: 5976.101099
+Test time: 9.143793
+
+---------------------------------------

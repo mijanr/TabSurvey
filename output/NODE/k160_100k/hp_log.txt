@@ -1,0 +1,64 @@
+2022-11-13 13:27:34.251656
+Parameters: {'num_layers': 2, 'total_tree_count': 1024, 'tree_depth': 8, 'tree_output_dim': 2}
+
+Log Loss - mean: 0.69336
+Log Loss - std: 0.00011
+AUC - mean: 0.49316
+AUC - std: 0.00601
+Accuracy - mean: 0.50272
+Accuracy - std: 0.00720
+F1 score - mean: 0.50272
+F1 score - std: 0.00720
+
+Train time: 4898.491930
+Test time: 25.941059
+
+---------------------------------------
+2022-11-13 13:55:06.799500
+Parameters: {'num_layers': 2, 'total_tree_count': 2048, 'tree_depth': 6, 'tree_output_dim': 2}
+
+Log Loss - mean: 0.69397
+Log Loss - std: 0.00079
+AUC - mean: 0.49730
+AUC - std: 0.00808
+Accuracy - mean: 0.50684
+Accuracy - std: 0.00874
+F1 score - mean: 0.50684
+F1 score - std: 0.00874
+
+Train time: 3919.427914
+Test time: 36.535506
+
+---------------------------------------
+2022-11-13 16:47:20.799399
+Parameters: {'num_layers': 4, 'total_tree_count': 2048, 'tree_depth': 8, 'tree_output_dim': 3}
+
+Log Loss - mean: 0.69721
+Log Loss - std: 0.00277
+AUC - mean: 0.49931
+AUC - std: 0.00728
+Accuracy - mean: 0.50337
+Accuracy - std: 0.00680
+F1 score - mean: 0.50337
+F1 score - std: 0.00680
+
+Train time: 12653.133187
+Test time: 79.389176
+
+---------------------------------------
+2022-11-13 16:55:10.847574
+Parameters: {'num_layers': 8, 'total_tree_count': 1024, 'tree_depth': 6, 'tree_output_dim': 2}
+
+Log Loss - mean: 0.69775
+Log Loss - std: 0.00264
+AUC - mean: 0.49905
+AUC - std: 0.01179
+Accuracy - mean: 0.49750
+Accuracy - std: 0.00745
+F1 score - mean: 0.49750
+F1 score - std: 0.00745
+
+Train time: 1118.511462
+Test time: 7.549406
+
+---------------------------------------

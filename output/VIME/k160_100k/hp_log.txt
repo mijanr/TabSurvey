@@ -1,0 +1,64 @@
+2022-11-13 12:39:03.127232
+Parameters: {'p_m': 0.1468153258774815, 'alpha': 3.7183846586872056, 'K': 10, 'beta': 0.5356300996108997}
+
+Log Loss - mean: 0.69306
+Log Loss - std: 0.00026
+AUC - mean: 0.49059
+AUC - std: 0.01487
+Accuracy - mean: 0.50511
+Accuracy - std: 0.00893
+F1 score - mean: 0.50511
+F1 score - std: 0.00893
+
+Train time: 337.204250
+Test time: 0.508133
+
+---------------------------------------
+2022-11-13 12:45:31.811409
+Parameters: {'p_m': 0.4565313641886798, 'alpha': 7.261605270638107, 'K': 20, 'beta': 6.812331655026814}
+
+Log Loss - mean: 0.69301
+Log Loss - std: 0.00014
+AUC - mean: 0.51050
+AUC - std: 0.01665
+Accuracy - mean: 0.50424
+Accuracy - std: 0.00256
+F1 score - mean: 0.50424
+F1 score - std: 0.00256
+
+Train time: 923.625768
+Test time: 0.600100
+
+---------------------------------------
+2022-11-13 15:15:38.001330
+Parameters: {'p_m': 0.7708914337859408, 'alpha': 4.118614937776415, 'K': 20, 'beta': 0.7491628575302627}
+
+Log Loss - mean: 0.69295
+Log Loss - std: 0.00033
+AUC - mean: 0.50793
+AUC - std: 0.01402
+Accuracy - mean: 0.51162
+Accuracy - std: 0.00666
+F1 score - mean: 0.51162
+F1 score - std: 0.00666
+
+Train time: 584.508027
+Test time: 0.489763
+
+---------------------------------------
+2022-11-13 15:16:33.224192
+Parameters: {'p_m': 0.8837910827583167, 'alpha': 4.922735991198128, 'K': 2, 'beta': 2.3203672482911766}
+
+Log Loss - mean: 0.69184
+Log Loss - std: 0.00181
+AUC - mean: 0.52261
+AUC - std: 0.01051
+Accuracy - mean: 0.50814
+Accuracy - std: 0.00510
+F1 score - mean: 0.50814
+F1 score - std: 0.00510
+
+Train time: 125.218217
+Test time: 0.515626
+
+---------------------------------------

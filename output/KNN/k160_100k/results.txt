@@ -1,0 +1,36 @@
+2022-11-13 12:36:37.833423
+KNN - k160_100k
+
+Log Loss - mean: 0.80765
+Log Loss - std: 0.03882
+AUC - mean: 0.48609
+AUC - std: 0.02190
+Accuracy - mean: 0.48533
+Accuracy - std: 0.01040
+F1 score - mean: 0.48533
+F1 score - std: 0.01040
+
+Train time: 0.005885
+Test time: 8.414079
+
+Best Parameters: {'n_neighbors': 9}
+
+
+2022-11-13 15:11:29.874087
+KNN - k160_100k
+
+Log Loss - mean: 0.80765
+Log Loss - std: 0.03882
+AUC - mean: 0.48609
+AUC - std: 0.02190
+Accuracy - mean: 0.48533
+Accuracy - std: 0.01040
+F1 score - mean: 0.48533
+F1 score - std: 0.01040
+
+Train time: 0.065769
+Test time: 8.698929
+
+Best Parameters: {'n_neighbors': 9}
+
+
