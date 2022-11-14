@@ -1,0 +1,32 @@
+2022-11-14 11:48:44.969124
+Parameters: {'n_formulas': 128, 'elastic_net_beta': 0.1}
+
+Log Loss - mean: 0.69289
+Log Loss - std: 0.00041
+AUC - mean: 0.51895
+AUC - std: 0.02862
+Accuracy - mean: 0.51401
+Accuracy - std: 0.01233
+F1 score - mean: 0.51401
+F1 score - std: 0.01233
+
+Train time: 236.448830
+Test time: 0.531483
+
+---------------------------------------
+2022-11-14 12:01:23.922032
+Parameters: {'n_formulas': 1024, 'elastic_net_beta': 1.6}
+
+Log Loss - mean: 0.69294
+Log Loss - std: 0.00025
+AUC - mean: 0.51339
+AUC - std: 0.01177
+Accuracy - mean: 0.50619
+Accuracy - std: 0.00395
+F1 score - mean: 0.50619
+F1 score - std: 0.00395
+
+Train time: 2973.005189
+Test time: 7.740407
+
+---------------------------------------

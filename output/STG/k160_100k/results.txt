@@ -1,0 +1,18 @@
+2022-11-14 12:39:06.130705
+STG - k160_100k
+
+Log Loss - mean: 0.69798
+Log Loss - std: 0.00292
+AUC - mean: 0.49414
+AUC - std: 0.02131
+Accuracy - mean: 0.49163
+Accuracy - std: 0.01577
+F1 score - mean: 0.49163
+F1 score - std: 0.01577
+
+Train time: 11.386719
+Test time: 0.044211
+
+Best Parameters: {'hidden_dims': [60, 20], 'lam': 0.001801515164228472, 'learning_rate': 0.0001564872775869535}
+
+

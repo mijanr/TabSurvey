@@ -1,0 +1,32 @@
+2022-11-14 12:38:33.879915
+Parameters: {'criterion': 'gradient-renorm-z', 'max_depth': 3}
+
+Log Loss - mean: 1.17615
+Log Loss - std: 0.04144
+AUC - mean: 0.49543
+AUC - std: 0.01408
+Accuracy - mean: 0.49663
+Accuracy - std: 0.00720
+F1 score - mean: 0.49663
+F1 score - std: 0.00720
+
+Train time: 6.590636
+Test time: 0.001069
+
+---------------------------------------
+2022-11-14 12:38:39.164436
+Parameters: {'criterion': 'gradient', 'max_depth': 3}
+
+Log Loss - mean: 1.17042
+Log Loss - std: 0.05422
+AUC - mean: 0.50172
+AUC - std: 0.02121
+Accuracy - mean: 0.49859
+Accuracy - std: 0.01911
+F1 score - mean: 0.49859
+F1 score - std: 0.01911
+
+Train time: 1.043762
+Test time: 0.001067
+
+---------------------------------------

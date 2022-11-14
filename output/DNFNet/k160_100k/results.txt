@@ -1,0 +1,18 @@
+2022-11-14 12:02:32.440396
+DNFNet - k160_100k
+
+Log Loss - mean: 0.69289
+Log Loss - std: 0.00041
+AUC - mean: 0.51895
+AUC - std: 0.02862
+Accuracy - mean: 0.51401
+Accuracy - std: 0.01233
+F1 score - mean: 0.51401
+F1 score - std: 0.01233
+
+Train time: 230.466357
+Test time: 0.508948
+
+Best Parameters: {'elastic_net_beta': 0.1, 'n_formulas': 128}
+
+

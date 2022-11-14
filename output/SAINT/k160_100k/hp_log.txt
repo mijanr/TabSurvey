@@ -14,3 +14,35 @@ Train time: 5976.101099
 Test time: 9.143793
 
 ---------------------------------------
+2022-11-14 09:35:54.088827
+Parameters: {'dim': 128, 'depth': 3, 'heads': 8, 'dropout': 0.4}
+
+Log Loss - mean: 0.69369
+Log Loss - std: 0.00058
+AUC - mean: 0.49134
+AUC - std: 0.01978
+Accuracy - mean: 0.50315
+Accuracy - std: 0.00975
+F1 score - mean: 0.50315
+F1 score - std: 0.00975
+
+Train time: 11172.785733
+Test time: 20.055654
+
+---------------------------------------
+2022-11-14 10:31:47.024564
+Parameters: {'dim': 32, 'depth': 3, 'heads': 2, 'dropout': 0.7}
+
+Log Loss - mean: 0.69354
+Log Loss - std: 0.00061
+AUC - mean: 0.49939
+AUC - std: 0.00839
+Accuracy - mean: 0.50532
+Accuracy - std: 0.00699
+F1 score - mean: 0.50532
+F1 score - std: 0.00699
+
+Train time: 7998.491552
+Test time: 9.244478
+
+---------------------------------------

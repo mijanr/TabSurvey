@@ -1,0 +1,18 @@
+2022-11-14 12:38:44.431865
+ModelTree - k160_100k
+
+Log Loss - mean: 1.17042
+Log Loss - std: 0.05422
+AUC - mean: 0.50172
+AUC - std: 0.02121
+Accuracy - mean: 0.49859
+Accuracy - std: 0.01911
+F1 score - mean: 0.49859
+F1 score - std: 0.01911
+
+Train time: 1.043710
+Test time: 0.001043
+
+Best Parameters: {'criterion': 'gradient', 'max_depth': 3}
+
+
