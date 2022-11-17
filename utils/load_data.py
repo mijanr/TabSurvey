@@ -106,27 +106,27 @@ def load_data(args):
         y = df[label_col].to_numpy()
     elif args.dataset == 'k80':
         path = "./data/simple.k80.s221.50k.csv.gz"
-        df = pd.read_csv(path, compression='gzip', header=0, sep=' ', quotechar='"')
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
         X = df.iloc[:, :-1].to_numpy()
         y = df.iloc[:, -1].to_numpy()
     elif args.dataset == 'k160':
         path = "./data/simple.k160.s221.50k.csv.gz"
-        df = pd.read_csv(path, compression='gzip', header=0, sep=' ', quotechar='"')
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
         X = df.iloc[:, :-1].to_numpy()
         y = df.iloc[:, -1].to_numpy()
     elif args.dataset == 'k160_100k':
         path = "./data/simple.k160.s221.100k.f75.csv.gz"
-        df = pd.read_csv(path, compression='gzip', header=0, sep=' ', quotechar='"')
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
         X = df.iloc[:, :-1].to_numpy()
         y = df.iloc[:, -1].to_numpy()
     elif args.dataset == 'k160_s221_100k_f76':
         path = "./data/simple.k160.s221.100k.f76.csv.gz"
-        df = pd.read_csv(path, compression='gzip', header=0, sep=' ', quotechar='"')
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
         X = df.iloc[:, :-1].to_numpy()
         y = df.iloc[:, -1].to_numpy()
     elif args.dataset == 'k160_s221_100k_f74':
         path = "./data/simple.k160.s221.100k.f74.csv.gz"
-        df = pd.read_csv(path, compression='gzip', header=0, sep=' ', quotechar='"')
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
         X = df.iloc[:, :-1].to_numpy()
         y = df.iloc[:, -1].to_numpy()
     else:
