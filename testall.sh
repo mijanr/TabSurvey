@@ -6,7 +6,7 @@
 SKLEARN_ENV="sklearn"
 GBDT_ENV="gbdt"
 TORCH_ENV="torch"
-KERAS_ENV="tensorflow"
+KERAS_ENV="keras"
 
 # "LinearModel" "KNN" "DecisionTree" "RandomForest"
 # "XGBoost" "CatBoost" "LightGBM"
@@ -14,32 +14,34 @@ KERAS_ENV="tensorflow"
 # MODELS=( "LinearModel" "KNN" "DecisionTree" "RandomForest" "XGBoost" "CatBoost" "LightGBM" "MLP" "TabNet" "VIME")
 
 declare -A MODELS
-MODELS=( ["LinearModel"]=$SKLEARN_ENV
-         ["KNN"]=$SKLEARN_ENV
+MODELS=( #["LinearModel"]=$SKLEARN_ENV
+         #["KNN"]=$SKLEARN_ENV
          # ["SVM"]=$SKLEARN_ENV
-         ["DecisionTree"]=$SKLEARN_ENV
-         ["RandomForest"]=$SKLEARN_ENV
-         ["XGBoost"]=$GBDT_ENV
-         ["CatBoost"]=$GBDT_ENV
-         ["LightGBM"]=$GBDT_ENV
-         ["MLP"]=$TORCH_ENV
-         ["TabNet"]=$TORCH_ENV
-         ["VIME"]=$TORCH_ENV
-         ["TabTransformer"]=$TORCH_ENV
-         ["ModelTree"]=$GBDT_ENV
-         ["NODE"]=$TORCH_ENV
-         ["DeepGBM"]=$TORCH_ENV
-         ["RLN"]=$KERAS_ENV
-         ["DNFNet"]=$KERAS_ENV
-         ["STG"]=$TORCH_ENV
-         ["NAM"]=$TORCH_ENV
-         ["DeepFM"]=$TORCH_ENV
-         ["SAINT"]=$TORCH_ENV
-         ["DANet"]=$TORCH_ENV
+        #  ["DecisionTree"]=$SKLEARN_ENV
+        #  ["RandomForest"]=$SKLEARN_ENV
+        #  ["XGBoost"]=$GBDT_ENV
+        #  ["CatBoost"]=$GBDT_ENV
+        ["LightGBM"]=$GBDT_ENV
+        #  ["MLP"]=$TORCH_ENV
+        #  ["TabNet"]=$TORCH_ENV
+        #  #["VIME"]=$TORCH_ENV
+        #  #["TabTransformer"]=$TORCH_ENV
+        #  ["ModelTree"]=$GBDT_ENV
+        #  #["NODE"]=$TORCH_ENV
+        #  ["DeepGBM"]=$TORCH_ENV
+        #  ["RLN"]=$KERAS_ENV
+        ["DNFNet"]=$KERAS_ENV
+        #  ["STG"]=$TORCH_ENV
+        #  ["NAM"]=$TORCH_ENV
+        #  ["DeepFM"]=$TORCH_ENV
+        #  ["SAINT"]=$TORCH_ENV
+        ["DANet"]=$TORCH_ENV
           )
 
 CONFIGS=( #"config/k80.yml"
-          "config/k160.yml"
+          #"config/k160_100k.yml"
+          "config/k160_s221_100k_f76.yml"
+          "config/k160_s221_100k_f74.yml"
           #"config/adult.yml"
           # "config/covertype.yml"
           # "config/california_housing.yml"
