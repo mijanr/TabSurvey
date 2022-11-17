@@ -43,14 +43,15 @@ python -m pip install requests qhoptim lightgbm==3.3.1 einops pytorch-tabnet ein
 #############################################################################################################
 
 # Set up Keras environment
-conda create -n tensorflow -y tensorflow-gpu=1.15.0 keras
+conda create -n keras -y tensorflow-gpu=1.15.0 keras
 eval "$(conda shell.bash hook)"
-conda activate tensorflow
-conda install -n tensorflow -y -c anaconda ipykernel
-conda install -n tensorflow -y -c conda-forge configargparse
-conda install -n tensorflow -y scikit-learn pandas
+conda activate keras
+conda install -n keras -y -c anaconda ipykernel
+conda install -n keras -y -c conda-forge configargparse
+conda install -n keras -y scikit-learn pandas
 python -m pip install stg==0.1.2 optuna tabulate yacs
 python -m pip install https://github.com/AmrMKayid/nam/archive/main.zip
+
 
 
 
