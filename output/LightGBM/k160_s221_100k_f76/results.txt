@@ -1,0 +1,18 @@
+2022-11-16 09:39:13.757584
+LightGBM - k160_s221_100k_f76
+
+Log Loss - mean: 0.71371
+Log Loss - std: 0.02558
+AUC - mean: 0.52484
+AUC - std: 0.00992
+Accuracy - mean: 0.51690
+Accuracy - std: 0.01535
+F1 score - mean: 0.51690
+F1 score - std: 0.01535
+
+Train time: 3.541565
+Test time: 0.027420
+
+Best Parameters: {'lambda_l1': 0.10424002678341053, 'lambda_l2': 1.944304385558569e-06, 'learning_rate': 0.18724262903875247, 'num_leaves': 533, 'verbosity': -1, 'objective': 'binary', 'metric': 'auc'}
+
+

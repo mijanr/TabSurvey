@@ -62,3 +62,35 @@ Train time: 4.926891
 Test time: 0.018279
 
 ---------------------------------------
+2022-11-15 19:50:55.936783
+Parameters: {'num_leaves': 44, 'lambda_l1': 0.16667162626186433, 'lambda_l2': 0.01434834951892122, 'learning_rate': 0.177517915637357, 'verbosity': -1, 'objective': 'binary', 'metric': 'auc'}
+
+Log Loss - mean: 0.70912
+Log Loss - std: 0.01294
+AUC - mean: 0.51374
+AUC - std: 0.02065
+Accuracy - mean: 0.51531
+Accuracy - std: 0.01186
+F1 score - mean: 0.51531
+F1 score - std: 0.01186
+
+Train time: 2.226362
+Test time: 0.017979
+
+---------------------------------------
+2022-11-15 19:50:56.982873
+Parameters: {'num_leaves': 129, 'lambda_l1': 3.758397889263642e-08, 'lambda_l2': 2.0272047793318172e-07, 'learning_rate': 0.09991915728793735, 'verbosity': -1, 'objective': 'binary', 'metric': 'auc'}
+
+Log Loss - mean: 0.70173
+Log Loss - std: 0.00804
+AUC - mean: 0.51410
+AUC - std: 0.00565
+Accuracy - mean: 0.50988
+Accuracy - std: 0.00282
+F1 score - mean: 0.50988
+F1 score - std: 0.00282
+
+Train time: 4.398337
+Test time: 0.015397
+
+---------------------------------------

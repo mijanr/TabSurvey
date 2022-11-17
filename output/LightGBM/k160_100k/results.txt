@@ -34,3 +34,21 @@ Test time: 0.063544
 Best Parameters: {'lambda_l1': 3.8487297349248894e-06, 'lambda_l2': 4.553180371136928e-06, 'learning_rate': 0.13872851686250615, 'num_leaves': 3845, 'verbosity': -1, 'objective': 'binary', 'metric': 'auc'}
 
 
+2022-11-15 19:50:58.331622
+LightGBM - k160_100k
+
+Log Loss - mean: 0.73207
+Log Loss - std: 0.02853
+AUC - mean: 0.52065
+AUC - std: 0.02230
+Accuracy - mean: 0.52096
+Accuracy - std: 0.01534
+F1 score - mean: 0.52096
+F1 score - std: 0.01534
+
+Train time: 5.845989
+Test time: 0.110859
+
+Best Parameters: {'lambda_l1': 3.8487297349248894e-06, 'lambda_l2': 4.553180371136928e-06, 'learning_rate': 0.13872851686250615, 'num_leaves': 3845, 'verbosity': -1, 'objective': 'binary', 'metric': 'auc'}
+
+

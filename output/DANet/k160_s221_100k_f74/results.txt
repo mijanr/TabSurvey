@@ -1,0 +1,18 @@
+2022-11-16 10:38:43.501283
+DANet - k160_s221_100k_f74
+
+Log Loss - mean: 0.70515
+Log Loss - std: 0.02456
+AUC - mean: 0.52474
+AUC - std: 0.01808
+Accuracy - mean: 0.52506
+Accuracy - std: 0.01158
+F1 score - mean: 0.52506
+F1 score - std: 0.01158
+
+Train time: 700.039308
+Test time: 0.789799
+
+Best Parameters: {'base_outdim': 96, 'drop_rate': 0.3, 'k': 6, 'layer': 15}
+
+
