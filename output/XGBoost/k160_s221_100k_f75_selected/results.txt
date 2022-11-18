@@ -1,0 +1,18 @@
+2022-11-17 18:46:43.060777
+XGBoost - k160_s221_100k_f75_selected
+
+Log Loss - mean: 0.69467
+Log Loss - std: 0.00348
+AUC - mean: 0.53398
+AUC - std: 0.01330
+Accuracy - mean: 0.52324
+Accuracy - std: 0.00757
+F1 score - mean: 0.52324
+F1 score - std: 0.00757
+
+Train time: 1.978129
+Test time: 0.031890
+
+Best Parameters: {'alpha': 3.660246678192041e-06, 'eta': 0.09585258959900017, 'lambda': 0.04672468507576734, 'max_depth': 3, 'verbosity': 1, 'tree_method': 'gpu_hist', 'gpu_id': 0, 'objective': 'binary:logistic', 'eval_metric': 'auc'}
+
+

@@ -1,0 +1,36 @@
+2022-11-17 10:02:45.425041
+DANet - k160_s221_100k_f75_selected
+
+Log Loss - mean: 0.69650
+Log Loss - std: 0.00973
+AUC - mean: 0.54461
+AUC - std: 0.01058
+Accuracy - mean: 0.53953
+Accuracy - std: 0.01112
+F1 score - mean: 0.53953
+F1 score - std: 0.01112
+
+Train time: 322.267099
+Test time: 0.380012
+
+Best Parameters: {'base_outdim': 64, 'drop_rate': 0.1, 'k': 3, 'layer': 16}
+
+
+2022-11-17 12:53:20.927203
+DANet - k160_s221_100k_f75_selected
+
+Log Loss - mean: 0.68753
+Log Loss - std: 0.00224
+AUC - mean: 0.55936
+AUC - std: 0.01367
+Accuracy - mean: 0.55799
+Accuracy - std: 0.00588
+F1 score - mean: 0.55799
+F1 score - std: 0.00588
+
+Train time: 1972.153147
+Test time: 1.433898
+
+Best Parameters: {'base_outdim': 96, 'drop_rate': 0.3, 'k': 6, 'layer': 32}
+
+

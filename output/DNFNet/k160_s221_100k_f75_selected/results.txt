@@ -1,0 +1,36 @@
+2022-11-17 09:52:09.262280
+DNFNet - k160_s221_100k_f75_selected
+
+Log Loss - mean: 0.68920
+Log Loss - std: 0.00160
+AUC - mean: 0.55315
+AUC - std: 0.00917
+Accuracy - mean: 0.54344
+Accuracy - std: 0.01352
+F1 score - mean: 0.54344
+F1 score - std: 0.01352
+
+Train time: 86.435908
+Test time: 0.299167
+
+Best Parameters: {'elastic_net_beta': 1.6, 'n_formulas': 256}
+
+
+2022-11-17 10:41:31.863909
+DNFNet - k160_s221_100k_f75_selected
+
+Log Loss - mean: 0.68920
+Log Loss - std: 0.00160
+AUC - mean: 0.55315
+AUC - std: 0.00917
+Accuracy - mean: 0.54344
+Accuracy - std: 0.01352
+F1 score - mean: 0.54344
+F1 score - std: 0.01352
+
+Train time: 88.660867
+Test time: 0.310229
+
+Best Parameters: {'elastic_net_beta': 1.6, 'n_formulas': 256}
+
+

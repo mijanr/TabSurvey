@@ -1,0 +1,352 @@
+2022-11-17 09:51:07.193706
+Parameters: {'n_formulas': 256, 'elastic_net_beta': 1.6}
+
+Log Loss - mean: 0.68920
+Log Loss - std: 0.00160
+AUC - mean: 0.55315
+AUC - std: 0.00917
+Accuracy - mean: 0.54344
+Accuracy - std: 0.01352
+F1 score - mean: 0.54344
+F1 score - std: 0.01352
+
+Train time: 86.091400
+Test time: 0.298775
+
+---------------------------------------
+2022-11-17 09:51:33.189768
+Parameters: {'n_formulas': 128, 'elastic_net_beta': 0.1}
+
+Log Loss - mean: 0.69173
+Log Loss - std: 0.00138
+AUC - mean: 0.53475
+AUC - std: 0.01030
+Accuracy - mean: 0.52215
+Accuracy - std: 0.01549
+F1 score - mean: 0.52215
+F1 score - std: 0.01549
+
+Train time: 52.162340
+Test time: 0.168731
+
+---------------------------------------
+2022-11-17 10:08:25.393228
+Parameters: {'n_formulas': 512, 'elastic_net_beta': 1.6}
+
+Log Loss - mean: 0.68935
+Log Loss - std: 0.00103
+AUC - mean: 0.55079
+AUC - std: 0.00663
+Accuracy - mean: 0.54214
+Accuracy - std: 0.00441
+F1 score - mean: 0.54214
+F1 score - std: 0.00441
+
+Train time: 229.010721
+Test time: 0.702171
+
+---------------------------------------
+2022-11-17 10:09:59.443644
+Parameters: {'n_formulas': 512, 'elastic_net_beta': 1.0}
+
+Log Loss - mean: 0.69009
+Log Loss - std: 0.00155
+AUC - mean: 0.54358
+AUC - std: 0.00840
+Accuracy - mean: 0.52758
+Accuracy - std: 0.01134
+F1 score - mean: 0.52758
+F1 score - std: 0.01134
+
+Train time: 253.600720
+Test time: 0.715415
+
+---------------------------------------
+2022-11-17 10:16:25.386187
+Parameters: {'n_formulas': 1024, 'elastic_net_beta': 0.4}
+
+Log Loss - mean: 0.69092
+Log Loss - std: 0.00115
+AUC - mean: 0.53479
+AUC - std: 0.00771
+Accuracy - mean: 0.52129
+Accuracy - std: 0.00852
+F1 score - mean: 0.52129
+F1 score - std: 0.00852
+
+Train time: 1196.097225
+Test time: 1.564511
+
+---------------------------------------
+2022-11-17 10:22:47.641288
+Parameters: {'n_formulas': 1024, 'elastic_net_beta': 0.4}
+
+Log Loss - mean: 0.69092
+Log Loss - std: 0.00115
+AUC - mean: 0.53479
+AUC - std: 0.00771
+Accuracy - mean: 0.52129
+Accuracy - std: 0.00852
+F1 score - mean: 0.52129
+F1 score - std: 0.00852
+
+Train time: 1207.856738
+Test time: 1.578094
+
+---------------------------------------
+2022-11-17 10:25:47.193442
+Parameters: {'n_formulas': 1024, 'elastic_net_beta': 1.3}
+
+Log Loss - mean: 0.68925
+Log Loss - std: 0.00164
+AUC - mean: 0.55240
+AUC - std: 0.00897
+Accuracy - mean: 0.54605
+Accuracy - std: 0.00719
+F1 score - mean: 0.54605
+F1 score - std: 0.00719
+
+Train time: 556.895407
+Test time: 1.574860
+
+---------------------------------------
+2022-11-17 10:28:47.588930
+Parameters: {'n_formulas': 1024, 'elastic_net_beta': 1.3}
+
+Log Loss - mean: 0.68925
+Log Loss - std: 0.00164
+AUC - mean: 0.55240
+AUC - std: 0.00897
+Accuracy - mean: 0.54605
+Accuracy - std: 0.00719
+F1 score - mean: 0.54605
+F1 score - std: 0.00719
+
+Train time: 554.504516
+Test time: 1.561301
+
+---------------------------------------
+2022-11-17 10:31:47.003027
+Parameters: {'n_formulas': 1024, 'elastic_net_beta': 1.3}
+
+Log Loss - mean: 0.68925
+Log Loss - std: 0.00164
+AUC - mean: 0.55240
+AUC - std: 0.00897
+Accuracy - mean: 0.54605
+Accuracy - std: 0.00719
+F1 score - mean: 0.54605
+F1 score - std: 0.00719
+
+Train time: 555.180171
+Test time: 1.552023
+
+---------------------------------------
+2022-11-17 10:32:24.766110
+Parameters: {'n_formulas': 128, 'elastic_net_beta': 0.4}
+
+Log Loss - mean: 0.69028
+Log Loss - std: 0.00174
+AUC - mean: 0.54070
+AUC - std: 0.00994
+Accuracy - mean: 0.52194
+Accuracy - std: 0.01218
+F1 score - mean: 0.52194
+F1 score - std: 0.01218
+
+Train time: 80.359972
+Test time: 0.171391
+
+---------------------------------------
+2022-11-17 10:33:37.187755
+Parameters: {'n_formulas': 256, 'elastic_net_beta': 0.7}
+
+Log Loss - mean: 0.69053
+Log Loss - std: 0.00253
+AUC - mean: 0.53996
+AUC - std: 0.01320
+Accuracy - mean: 0.52759
+Accuracy - std: 0.01303
+F1 score - mean: 0.52759
+F1 score - std: 0.01303
+
+Train time: 184.551381
+Test time: 0.319751
+
+---------------------------------------
+2022-11-17 10:34:14.460719
+Parameters: {'n_formulas': 256, 'elastic_net_beta': 1.6}
+
+Log Loss - mean: 0.68920
+Log Loss - std: 0.00160
+AUC - mean: 0.55315
+AUC - std: 0.00917
+Accuracy - mean: 0.54344
+Accuracy - std: 0.01352
+F1 score - mean: 0.54344
+F1 score - std: 0.01352
+
+Train time: 88.950792
+Test time: 0.316443
+
+---------------------------------------
+2022-11-17 10:34:51.453118
+Parameters: {'n_formulas': 256, 'elastic_net_beta': 1.6}
+
+Log Loss - mean: 0.68920
+Log Loss - std: 0.00160
+AUC - mean: 0.55315
+AUC - std: 0.00917
+Accuracy - mean: 0.54344
+Accuracy - std: 0.01352
+F1 score - mean: 0.54344
+F1 score - std: 0.01352
+
+Train time: 90.059356
+Test time: 0.306535
+
+---------------------------------------
+2022-11-17 10:35:28.434108
+Parameters: {'n_formulas': 256, 'elastic_net_beta': 1.6}
+
+Log Loss - mean: 0.68920
+Log Loss - std: 0.00160
+AUC - mean: 0.55315
+AUC - std: 0.00917
+Accuracy - mean: 0.54344
+Accuracy - std: 0.01352
+F1 score - mean: 0.54344
+F1 score - std: 0.01352
+
+Train time: 89.390159
+Test time: 0.302237
+
+---------------------------------------
+2022-11-17 10:35:39.984371
+Parameters: {'n_formulas': 64, 'elastic_net_beta': 1.6}
+
+Log Loss - mean: 0.68914
+Log Loss - std: 0.00206
+AUC - mean: 0.55302
+AUC - std: 0.01432
+Accuracy - mean: 0.53910
+Accuracy - std: 0.01667
+F1 score - mean: 0.53910
+F1 score - std: 0.01667
+
+Train time: 15.355992
+Test time: 0.113825
+
+---------------------------------------
+2022-11-17 10:36:17.098878
+Parameters: {'n_formulas': 256, 'elastic_net_beta': 1.6}
+
+Log Loss - mean: 0.68920
+Log Loss - std: 0.00160
+AUC - mean: 0.55315
+AUC - std: 0.00917
+Accuracy - mean: 0.54344
+Accuracy - std: 0.01352
+F1 score - mean: 0.54344
+F1 score - std: 0.01352
+
+Train time: 88.682921
+Test time: 0.328432
+
+---------------------------------------
+2022-11-17 10:37:29.269484
+Parameters: {'n_formulas': 256, 'elastic_net_beta': 0.7}
+
+Log Loss - mean: 0.69053
+Log Loss - std: 0.00253
+AUC - mean: 0.53996
+AUC - std: 0.01320
+Accuracy - mean: 0.52759
+Accuracy - std: 0.01303
+F1 score - mean: 0.52759
+F1 score - std: 0.01303
+
+Train time: 183.035080
+Test time: 0.313687
+
+---------------------------------------
+2022-11-17 10:37:41.946663
+Parameters: {'n_formulas': 64, 'elastic_net_beta': 1.0}
+
+Log Loss - mean: 0.68977
+Log Loss - std: 0.00198
+AUC - mean: 0.54680
+AUC - std: 0.00949
+Accuracy - mean: 0.53280
+Accuracy - std: 0.01049
+F1 score - mean: 0.53280
+F1 score - std: 0.01049
+
+Train time: 16.937971
+Test time: 0.114757
+
+---------------------------------------
+2022-11-17 10:39:04.478003
+Parameters: {'n_formulas': 256, 'elastic_net_beta': 0.1}
+
+Log Loss - mean: 0.69191
+Log Loss - std: 0.00131
+AUC - mean: 0.52617
+AUC - std: 0.01594
+Accuracy - mean: 0.51694
+Accuracy - std: 0.01456
+F1 score - mean: 0.51694
+F1 score - std: 0.01456
+
+Train time: 210.519920
+Test time: 0.318862
+
+---------------------------------------
+2022-11-17 10:39:41.370657
+Parameters: {'n_formulas': 256, 'elastic_net_beta': 1.6}
+
+Log Loss - mean: 0.68920
+Log Loss - std: 0.00160
+AUC - mean: 0.55315
+AUC - std: 0.00917
+Accuracy - mean: 0.54344
+Accuracy - std: 0.01352
+F1 score - mean: 0.54344
+F1 score - std: 0.01352
+
+Train time: 88.451581
+Test time: 0.296505
+
+---------------------------------------
+2022-11-17 10:40:18.398304
+Parameters: {'n_formulas': 256, 'elastic_net_beta': 1.6}
+
+Log Loss - mean: 0.68920
+Log Loss - std: 0.00160
+AUC - mean: 0.55315
+AUC - std: 0.00917
+Accuracy - mean: 0.54344
+Accuracy - std: 0.01352
+F1 score - mean: 0.54344
+F1 score - std: 0.01352
+
+Train time: 89.183082
+Test time: 0.304129
+
+---------------------------------------
+2022-11-17 10:40:55.262419
+Parameters: {'n_formulas': 256, 'elastic_net_beta': 1.6}
+
+Log Loss - mean: 0.68920
+Log Loss - std: 0.00160
+AUC - mean: 0.55315
+AUC - std: 0.00917
+Accuracy - mean: 0.54344
+Accuracy - std: 0.01352
+F1 score - mean: 0.54344
+F1 score - std: 0.01352
+
+Train time: 88.569183
+Test time: 0.312772
+
+---------------------------------------
