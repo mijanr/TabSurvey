@@ -1,0 +1,64 @@
+2022-11-18 20:36:42.860881
+Parameters: {'max_depth': 6, 'alpha': 1.2841219090152467e-07, 'lambda': 0.01359281362298654, 'eta': 0.033416637609382245, 'verbosity': 1, 'tree_method': 'gpu_hist', 'gpu_id': 0, 'objective': 'binary:logistic', 'eval_metric': 'auc'}
+
+Log Loss - mean: 0.69381
+Log Loss - std: 0.00052
+AUC - mean: 0.50624
+AUC - std: 0.00970
+Accuracy - mean: 0.50566
+Accuracy - std: 0.00723
+F1 score - mean: 0.50566
+F1 score - std: 0.00723
+
+Train time: 6.479813
+Test time: 0.056871
+
+---------------------------------------
+2022-11-18 20:36:45.823444
+Parameters: {'max_depth': 7, 'alpha': 9.587882648344592e-08, 'lambda': 0.287669025739047, 'eta': 0.03260707962299121, 'verbosity': 1, 'tree_method': 'gpu_hist', 'gpu_id': 0, 'objective': 'binary:logistic', 'eval_metric': 'auc'}
+
+Log Loss - mean: 0.69502
+Log Loss - std: 0.00042
+AUC - mean: 0.50162
+AUC - std: 0.00993
+Accuracy - mean: 0.50113
+Accuracy - std: 0.00895
+F1 score - mean: 0.50113
+F1 score - std: 0.00895
+
+Train time: 5.936032
+Test time: 0.067571
+
+---------------------------------------
+2022-11-18 20:37:19.542810
+Parameters: {'max_depth': 2, 'alpha': 2.4925966590033308e-08, 'lambda': 0.03293580054129579, 'eta': 0.01634125836666099, 'verbosity': 1, 'tree_method': 'gpu_hist', 'gpu_id': 0, 'objective': 'binary:logistic', 'eval_metric': 'auc'}
+
+Log Loss - mean: 0.69322
+Log Loss - std: 0.00008
+AUC - mean: 0.50367
+AUC - std: 0.00693
+Accuracy - mean: 0.50531
+Accuracy - std: 0.00739
+F1 score - mean: 0.50531
+F1 score - std: 0.00739
+
+Train time: 4.232762
+Test time: 0.073043
+
+---------------------------------------
+2022-11-18 20:37:20.606514
+Parameters: {'max_depth': 5, 'alpha': 7.084439408273526e-05, 'lambda': 0.03204335136558188, 'eta': 0.13439582236877395, 'verbosity': 1, 'tree_method': 'gpu_hist', 'gpu_id': 0, 'objective': 'binary:logistic', 'eval_metric': 'auc'}
+
+Log Loss - mean: 0.69571
+Log Loss - std: 0.00174
+AUC - mean: 0.50949
+AUC - std: 0.00885
+Accuracy - mean: 0.50805
+Accuracy - std: 0.00695
+F1 score - mean: 0.50805
+F1 score - std: 0.00695
+
+Train time: 4.205686
+Test time: 0.189721
+
+---------------------------------------

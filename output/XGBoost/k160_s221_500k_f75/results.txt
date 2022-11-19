@@ -1,0 +1,36 @@
+2022-11-18 20:36:47.377693
+XGBoost - k160_s221_500k_f75
+
+Log Loss - mean: 0.69381
+Log Loss - std: 0.00052
+AUC - mean: 0.50624
+AUC - std: 0.00970
+Accuracy - mean: 0.50566
+Accuracy - std: 0.00723
+F1 score - mean: 0.50566
+F1 score - std: 0.00723
+
+Train time: 5.387660
+Test time: 0.062725
+
+Best Parameters: {'alpha': 1.2841219090152467e-07, 'eta': 0.033416637609382245, 'lambda': 0.01359281362298654, 'max_depth': 6, 'verbosity': 1, 'tree_method': 'gpu_hist', 'gpu_id': 0, 'objective': 'binary:logistic', 'eval_metric': 'auc'}
+
+
+2022-11-18 20:37:21.555139
+XGBoost - k160_s221_500k_f75
+
+Log Loss - mean: 0.69571
+Log Loss - std: 0.00174
+AUC - mean: 0.50949
+AUC - std: 0.00885
+Accuracy - mean: 0.50805
+Accuracy - std: 0.00695
+F1 score - mean: 0.50805
+F1 score - std: 0.00695
+
+Train time: 3.826428
+Test time: 0.066383
+
+Best Parameters: {'alpha': 7.084439408273526e-05, 'eta': 0.13439582236877395, 'lambda': 0.03204335136558188, 'max_depth': 5, 'verbosity': 1, 'tree_method': 'gpu_hist', 'gpu_id': 0, 'objective': 'binary:logistic', 'eval_metric': 'auc'}
+
+

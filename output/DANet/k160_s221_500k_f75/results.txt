@@ -1,0 +1,18 @@
+2022-11-19 00:29:50.380179
+DANet - k160_s221_500k_f75
+
+Log Loss - mean: 0.69324
+Log Loss - std: 0.00017
+AUC - mean: 0.50936
+AUC - std: 0.00360
+Accuracy - mean: 0.50761
+Accuracy - std: 0.00730
+F1 score - mean: 0.50761
+F1 score - std: 0.00730
+
+Train time: 4174.768614
+Test time: 3.353890
+
+Best Parameters: {'base_outdim': 64, 'drop_rate': 0.2, 'k': 4, 'layer': 22}
+
+
