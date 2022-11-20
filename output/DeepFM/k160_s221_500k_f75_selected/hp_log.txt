@@ -1,0 +1,320 @@
+2022-11-19 12:42:53.999454
+Parameters: {'dnn_dropout': 0.5326395018570771}
+
+Log Loss - mean: 0.70640
+Log Loss - std: 0.00656
+AUC - mean: 0.51194
+AUC - std: 0.00723
+Accuracy - mean: 0.50570
+Accuracy - std: 0.00743
+F1 score - mean: 0.50570
+F1 score - std: 0.00743
+
+Train time: 90.703119
+Test time: 0.234244
+
+---------------------------------------
+2022-11-19 12:43:35.291313
+Parameters: {'dnn_dropout': 0.8647221747439151}
+
+Log Loss - mean: 0.70471
+Log Loss - std: 0.00578
+AUC - mean: 0.50873
+AUC - std: 0.00636
+Accuracy - mean: 0.50901
+Accuracy - std: 0.00564
+F1 score - mean: 0.50901
+F1 score - std: 0.00564
+
+Train time: 98.693075
+Test time: 0.230285
+
+---------------------------------------
+2022-11-19 12:44:12.360205
+Parameters: {'dnn_dropout': 0.16642007436102857}
+
+Log Loss - mean: 0.71328
+Log Loss - std: 0.00905
+AUC - mean: 0.50727
+AUC - std: 0.00681
+Accuracy - mean: 0.50339
+Accuracy - std: 0.00549
+F1 score - mean: 0.50339
+F1 score - std: 0.00549
+
+Train time: 88.571841
+Test time: 0.232596
+
+---------------------------------------
+2022-11-19 12:44:50.280913
+Parameters: {'dnn_dropout': 0.05840629458076072}
+
+Log Loss - mean: 0.71097
+Log Loss - std: 0.00744
+AUC - mean: 0.51097
+AUC - std: 0.00823
+Accuracy - mean: 0.50957
+Accuracy - std: 0.00549
+F1 score - mean: 0.50957
+F1 score - std: 0.00549
+
+Train time: 90.657100
+Test time: 0.230053
+
+---------------------------------------
+2022-11-19 12:45:30.549178
+Parameters: {'dnn_dropout': 0.7573619790229495}
+
+Log Loss - mean: 0.70756
+Log Loss - std: 0.00686
+AUC - mean: 0.50827
+AUC - std: 0.00894
+Accuracy - mean: 0.50409
+Accuracy - std: 0.00749
+F1 score - mean: 0.50409
+F1 score - std: 0.00749
+
+Train time: 96.288773
+Test time: 0.232759
+
+---------------------------------------
+2022-11-19 12:46:08.595067
+Parameters: {'dnn_dropout': 0.1315944313193729}
+
+Log Loss - mean: 0.71212
+Log Loss - std: 0.00850
+AUC - mean: 0.50924
+AUC - std: 0.00660
+Accuracy - mean: 0.50200
+Accuracy - std: 0.00444
+F1 score - mean: 0.50200
+F1 score - std: 0.00444
+
+Train time: 90.960484
+Test time: 0.229637
+
+---------------------------------------
+2022-11-19 12:46:47.916164
+Parameters: {'dnn_dropout': 0.23651038224647855}
+
+Log Loss - mean: 0.71264
+Log Loss - std: 0.00909
+AUC - mean: 0.50570
+AUC - std: 0.00939
+Accuracy - mean: 0.50278
+Accuracy - std: 0.00783
+F1 score - mean: 0.50278
+F1 score - std: 0.00783
+
+Train time: 94.012857
+Test time: 0.234277
+
+---------------------------------------
+2022-11-19 12:47:26.003332
+Parameters: {'dnn_dropout': 0.2247683499028309}
+
+Log Loss - mean: 0.71030
+Log Loss - std: 0.00817
+AUC - mean: 0.51094
+AUC - std: 0.00862
+Accuracy - mean: 0.50553
+Accuracy - std: 0.00812
+F1 score - mean: 0.50553
+F1 score - std: 0.00812
+
+Train time: 91.022460
+Test time: 0.236274
+
+---------------------------------------
+2022-11-19 12:48:04.104548
+Parameters: {'dnn_dropout': 0.41121776628512646}
+
+Log Loss - mean: 0.71044
+Log Loss - std: 0.00942
+AUC - mean: 0.51346
+AUC - std: 0.00804
+Accuracy - mean: 0.50853
+Accuracy - std: 0.00572
+F1 score - mean: 0.50853
+F1 score - std: 0.00572
+
+Train time: 91.004816
+Test time: 0.230275
+
+---------------------------------------
+2022-11-19 12:48:44.293399
+Parameters: {'dnn_dropout': 0.5300418867991453}
+
+Log Loss - mean: 0.71045
+Log Loss - std: 0.01078
+AUC - mean: 0.51016
+AUC - std: 0.00791
+Accuracy - mean: 0.50722
+Accuracy - std: 0.00639
+F1 score - mean: 0.50722
+F1 score - std: 0.00639
+
+Train time: 96.089841
+Test time: 0.229816
+
+---------------------------------------
+2022-11-19 12:49:22.217615
+Parameters: {'dnn_dropout': 0.4114496233560099}
+
+Log Loss - mean: 0.71133
+Log Loss - std: 0.00821
+AUC - mean: 0.50796
+AUC - std: 0.00918
+Accuracy - mean: 0.50500
+Accuracy - std: 0.00470
+F1 score - mean: 0.50500
+F1 score - std: 0.00470
+
+Train time: 90.665483
+Test time: 0.231394
+
+---------------------------------------
+2022-11-19 12:50:00.374007
+Parameters: {'dnn_dropout': 0.5288867803838526}
+
+Log Loss - mean: 0.70653
+Log Loss - std: 0.00560
+AUC - mean: 0.50977
+AUC - std: 0.00817
+Accuracy - mean: 0.50627
+Accuracy - std: 0.00567
+F1 score - mean: 0.50627
+F1 score - std: 0.00567
+
+Train time: 91.110355
+Test time: 0.252966
+
+---------------------------------------
+2022-11-19 12:50:43.000827
+Parameters: {'dnn_dropout': 0.38318561649839306}
+
+Log Loss - mean: 0.71570
+Log Loss - std: 0.00436
+AUC - mean: 0.51157
+AUC - std: 0.00981
+Accuracy - mean: 0.50292
+Accuracy - std: 0.00752
+F1 score - mean: 0.50292
+F1 score - std: 0.00752
+
+Train time: 101.943973
+Test time: 0.233870
+
+---------------------------------------
+2022-11-19 12:51:23.489566
+Parameters: {'dnn_dropout': 0.6788872652163176}
+
+Log Loss - mean: 0.71051
+Log Loss - std: 0.00904
+AUC - mean: 0.50946
+AUC - std: 0.00509
+Accuracy - mean: 0.50096
+Accuracy - std: 0.00284
+F1 score - mean: 0.50096
+F1 score - std: 0.00284
+
+Train time: 96.759207
+Test time: 0.229919
+
+---------------------------------------
+2022-11-19 12:52:00.947675
+Parameters: {'dnn_dropout': 0.6115122433582184}
+
+Log Loss - mean: 0.70782
+Log Loss - std: 0.00673
+AUC - mean: 0.51157
+AUC - std: 0.00806
+Accuracy - mean: 0.50670
+Accuracy - std: 0.00780
+F1 score - mean: 0.50670
+F1 score - std: 0.00780
+
+Train time: 89.548094
+Test time: 0.227418
+
+---------------------------------------
+2022-11-19 12:52:41.153882
+Parameters: {'dnn_dropout': 0.3195568836288837}
+
+Log Loss - mean: 0.71778
+Log Loss - std: 0.01312
+AUC - mean: 0.50846
+AUC - std: 0.00892
+Accuracy - mean: 0.50413
+Accuracy - std: 0.00731
+F1 score - mean: 0.50413
+F1 score - std: 0.00731
+
+Train time: 96.084296
+Test time: 0.228303
+
+---------------------------------------
+2022-11-19 12:53:18.725701
+Parameters: {'dnn_dropout': 0.4775993096216558}
+
+Log Loss - mean: 0.70839
+Log Loss - std: 0.00727
+AUC - mean: 0.50900
+AUC - std: 0.01117
+Accuracy - mean: 0.50496
+Accuracy - std: 0.00971
+F1 score - mean: 0.50496
+F1 score - std: 0.00971
+
+Train time: 89.793076
+Test time: 0.227314
+
+---------------------------------------
+2022-11-19 12:53:58.450505
+Parameters: {'dnn_dropout': 0.6062827521820293}
+
+Log Loss - mean: 0.71029
+Log Loss - std: 0.00838
+AUC - mean: 0.50833
+AUC - std: 0.00816
+Accuracy - mean: 0.50618
+Accuracy - std: 0.00587
+F1 score - mean: 0.50618
+F1 score - std: 0.00587
+
+Train time: 94.985537
+Test time: 0.228181
+
+---------------------------------------
+2022-11-19 12:54:38.414816
+Parameters: {'dnn_dropout': 0.32778460820175653}
+
+Log Loss - mean: 0.71431
+Log Loss - std: 0.00379
+AUC - mean: 0.51117
+AUC - std: 0.00525
+Accuracy - mean: 0.50331
+Accuracy - std: 0.00425
+F1 score - mean: 0.50331
+F1 score - std: 0.00425
+
+Train time: 95.549486
+Test time: 0.228327
+
+---------------------------------------
+2022-11-19 12:55:19.619522
+Parameters: {'dnn_dropout': 0.787488394056113}
+
+Log Loss - mean: 0.70920
+Log Loss - std: 0.00741
+AUC - mean: 0.50908
+AUC - std: 0.00707
+Accuracy - mean: 0.50931
+Accuracy - std: 0.00971
+F1 score - mean: 0.50931
+F1 score - std: 0.00971
+
+Train time: 98.492523
+Test time: 0.229605
+
+---------------------------------------

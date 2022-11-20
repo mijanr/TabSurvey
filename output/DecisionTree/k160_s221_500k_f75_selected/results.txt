@@ -1,0 +1,18 @@
+2022-11-19 12:56:31.618520
+DecisionTree - k160_s221_500k_f75_selected
+
+Log Loss - mean: 0.69308
+Log Loss - std: 0.00066
+AUC - mean: 0.52019
+AUC - std: 0.00435
+Accuracy - mean: 0.51258
+Accuracy - std: 0.00473
+F1 score - mean: 0.51258
+F1 score - std: 0.00473
+
+Train time: 0.011842
+Test time: 0.000299
+
+Best Parameters: {'max_depth': 4}
+
+

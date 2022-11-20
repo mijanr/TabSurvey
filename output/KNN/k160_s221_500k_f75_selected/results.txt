@@ -1,0 +1,18 @@
+2022-11-19 08:15:13.380069
+KNN - k160_s221_500k_f75_selected
+
+Log Loss - mean: 0.70633
+Log Loss - std: 0.00114
+AUC - mean: 0.50963
+AUC - std: 0.00416
+Accuracy - mean: 0.50553
+Accuracy - std: 0.00513
+F1 score - mean: 0.50553
+F1 score - std: 0.00513
+
+Train time: 0.004037
+Test time: 11.914394
+
+Best Parameters: {'n_neighbors': 33}
+
+

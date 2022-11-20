@@ -1,0 +1,18 @@
+2022-11-20 05:59:05.528440
+SVM - k160_s221_500k_f75_selected
+
+Log Loss - mean: 0.69219
+Log Loss - std: 0.00037
+AUC - mean: 0.52697
+AUC - std: 0.00831
+Accuracy - mean: 0.51849
+Accuracy - std: 0.00549
+F1 score - mean: 0.51849
+F1 score - std: 0.00549
+
+Train time: 47.635354
+Test time: 2.391760
+
+Best Parameters: {'C': 0.03588455525406606}
+
+

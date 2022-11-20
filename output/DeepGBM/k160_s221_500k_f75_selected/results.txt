@@ -1,0 +1,18 @@
+2022-11-19 13:15:35.501035
+DeepGBM - k160_s221_500k_f75_selected
+
+Log Loss - mean: 0.69312
+Log Loss - std: 0.00076
+AUC - mean: 0.51222
+AUC - std: 0.01077
+Accuracy - mean: 0.50814
+Accuracy - std: 0.00648
+F1 score - mean: 0.50814
+F1 score - std: 0.00648
+
+Train time: 68.821807
+Test time: 0.204153
+
+Best Parameters: {'loss_de': 4, 'loss_dr': 0.9, 'maxleaf': 64, 'n_trees': 200}
+
+

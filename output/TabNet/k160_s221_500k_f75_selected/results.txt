@@ -1,0 +1,18 @@
+2022-11-19 12:42:14.322752
+TabNet - k160_s221_500k_f75_selected
+
+Log Loss - mean: 0.69255
+Log Loss - std: 0.00021
+AUC - mean: 0.52259
+AUC - std: 0.00490
+Accuracy - mean: 0.51932
+Accuracy - std: 0.00733
+F1 score - mean: 0.51932
+F1 score - std: 0.00733
+
+Train time: 1122.105638
+Test time: 2.656530
+
+Best Parameters: {'cat_emb_dim': 1, 'gamma': 1.333226250006661, 'mask_type': 'sparsemax', 'momentum': 0.013529155590615944, 'n_d': 63, 'n_independent': 3, 'n_shared': 1, 'n_steps': 6, 'n_a': 63, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cpu')}
+
+
