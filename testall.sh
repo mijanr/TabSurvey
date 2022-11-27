@@ -14,34 +14,40 @@ KERAS_ENV="keras"
 # MODELS=( "LinearModel" "KNN" "DecisionTree" "RandomForest" "XGBoost" "CatBoost" "LightGBM" "MLP" "TabNet" "VIME")
 
 declare -A MODELS
-MODELS=( #["LinearModel"]=$SKLEARN_ENV
-         #["KNN"]=$SKLEARN_ENV
-         # ["SVM"]=$SKLEARN_ENV
+MODELS=( #
+        # ["LinearModel"]=$SKLEARN_ENV
+        #  ["KNN"]=$SKLEARN_ENV
+        #  ["SVM"]=$SKLEARN_ENV
         #  ["DecisionTree"]=$SKLEARN_ENV
-        #  ["RandomForest"]=$SKLEARN_ENV
-        #  ["XGBoost"]=$GBDT_ENV
+        #["RandomForest"]=$SKLEARN_ENV
+        #   ["XGBoost"]=$GBDT_ENV
         #  ["CatBoost"]=$GBDT_ENV
-        ["LightGBM"]=$GBDT_ENV
+        # ["LightGBM"]=$GBDT_ENV
         #  ["MLP"]=$TORCH_ENV
         #  ["TabNet"]=$TORCH_ENV
-        #  #["VIME"]=$TORCH_ENV
-        #  #["TabTransformer"]=$TORCH_ENV
+        #  ["VIME"]=$TORCH_ENV
+        #  ["TabTransformer"]=$TORCH_ENV
         #  ["ModelTree"]=$GBDT_ENV
-        #  #["NODE"]=$TORCH_ENV
-        #  ["DeepGBM"]=$TORCH_ENV
+         #["NODE"]=$TORCH_ENV
+        # ["DeepGBM"]=$TORCH_ENV
         #  ["RLN"]=$KERAS_ENV
-        ["DNFNet"]=$KERAS_ENV
+        # ["DNFNet"]=$KERAS_ENV
         #  ["STG"]=$TORCH_ENV
-        #  ["NAM"]=$TORCH_ENV
+         # ["NAM"]=$TORCH_ENV
         #  ["DeepFM"]=$TORCH_ENV
         #  ["SAINT"]=$TORCH_ENV
-        ["DANet"]=$TORCH_ENV
+         ["DANet"]=$TORCH_ENV
           )
 
 CONFIGS=( #"config/k80.yml"
-          #"config/k160_100k.yml"
-          "config/k160_s221_100k_f76.yml"
-          "config/k160_s221_100k_f74.yml"
+          #"config/k160_s221_100k_f75.yml"
+          # "config/k160_s221_100k_f76.yml"
+          # "config/k160_s221_100k_f74.yml"
+          #"config/k160_s221_100k_f75_selected.yml"
+          #"config/k160_s221_500k_f75.yml"
+          #"config/k160_s221_500k_f75_selected.yml"
+          #"config/prefix_k67_s112_1500k_f73.yml"
+          "config/k_67_s112_100k_f83.yml"
           #"config/adult.yml"
           # "config/covertype.yml"
           # "config/california_housing.yml"
