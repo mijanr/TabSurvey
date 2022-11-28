@@ -1,0 +1,18 @@
+2022-11-27 14:20:34.304979
+DANet - k_67_s112_100k_f83
+
+Log Loss - mean: 0.75938
+Log Loss - std: 0.10071
+AUC - mean: 0.51792
+AUC - std: 0.00562
+Accuracy - mean: 0.51598
+Accuracy - std: 0.01019
+F1 score - mean: 0.51598
+F1 score - std: 0.01019
+
+Train time: 804.558839
+Test time: 0.788280
+
+Best Parameters: {'base_outdim': 64, 'drop_rate': 0.2, 'k': 5, 'layer': 15}
+
+
