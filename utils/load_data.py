@@ -184,6 +184,16 @@ def load_data(args):
         df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
         X = df.iloc[:, :-1].to_numpy()
         y = df.iloc[:, -1].to_numpy()
+    elif args.dataset == 'range_k67_s112_1500k_f47_f2_52':
+        path = "./data/range.k67.s112.1500k.f47.f2_52.csv.gz"
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
+        X = df.iloc[:, :-1].to_numpy()
+        y = df.iloc[:, -1].to_numpy()
+    elif args.dataset == 'prefix_k67_s112_1500k_f_list':
+        path = "./data/prefix.k67.s112.1500k.f[0, 20, 40, 60, 80, 100, 120, 140].csv.gz"
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
+        X = df.iloc[:, :-1].to_numpy()
+        y = df.iloc[:, -1].to_numpy()
         
     else:
         raise AttributeError("Dataset \"" + args.dataset + "\" not available")
