@@ -164,6 +164,27 @@ def load_data(args):
         df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
         X = df.iloc[:, :-1].to_numpy()
         y = df.iloc[:, -1].to_numpy()
+    elif args.dataset == 'prefix_k67_s112_1500k_f66':
+        path = "./data/prefix.k67.s112.1500k.f66.csv.gz"
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
+        X = df.iloc[:, :-1].to_numpy()
+        y = df.iloc[:, -1].to_numpy()
+    elif args.dataset == 'prefix_k67_s112_1500k_f66_selected':
+        path = "./data/prefix.k67.s112.1500k.f66_selected.csv.gz"
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
+        X = df.iloc[:, :-1].to_numpy()
+        y = df.iloc[:, -1].to_numpy()
+    elif args.dataset == 'prefix_k67_s112_1500k_f66_selected_10':
+        path = "./data/prefix.k67.s112.1500k.f66_selected_10.csv.gz"
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
+        X = df.iloc[:, :-1].to_numpy()
+        y = df.iloc[:, -1].to_numpy()
+    elif args.dataset == 'range_k67_s112_1500k_f83_f2_38':
+        path = "./data/range.k67.s112.1500k.f83.f2_38.csv.gz"
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
+        X = df.iloc[:, :-1].to_numpy()
+        y = df.iloc[:, -1].to_numpy()
+        
     else:
         raise AttributeError("Dataset \"" + args.dataset + "\" not available")
 
