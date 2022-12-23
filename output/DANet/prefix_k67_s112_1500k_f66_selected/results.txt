@@ -1,0 +1,18 @@
+2022-12-08 14:25:14.458321
+DANet - prefix_k67_s112_1500k_f66_selected
+
+Log Loss - mean: 0.72198
+Log Loss - std: 0.04951
+AUC - mean: 0.54652
+AUC - std: 0.01446
+Accuracy - mean: 0.53798
+Accuracy - std: 0.01110
+F1 score - mean: 0.53798
+F1 score - std: 0.01110
+
+Train time: 1055.624012
+Test time: 1.448434
+
+Best Parameters: {'base_outdim': 64, 'drop_rate': 0, 'k': 6, 'layer': 28}
+
+

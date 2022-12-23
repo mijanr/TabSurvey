@@ -16,3 +16,14 @@ Test time: 0.475140
 Best Parameters: {'base_outdim': 64, 'drop_rate': 0, 'k': 6, 'layer': 26}
 
 
+2022-12-06 17:49:19.529755
+DANet - k80
+
+Log Loss - mean: 0.69332
+Log Loss - std: 0.00000
+AUC - mean: 0.49946
+AUC - std: 0.00000
+Accuracy - mean: 0.50220
+Accuracy - std: 0.00000
+F1 score - mean: 0.50220
+F1 score - std: 0.00000

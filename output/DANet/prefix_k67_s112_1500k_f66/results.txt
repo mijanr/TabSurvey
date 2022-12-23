@@ -1,0 +1,37 @@
+2022-12-04 11:47:25.843773
+DANet - prefix_k67_s112_1500k_f66
+
+Log Loss - mean: 0.70645
+Log Loss - std: 0.01554
+AUC - mean: 0.52306
+AUC - std: 0.01495
+Accuracy - mean: 0.52620
+Accuracy - std: 0.00983
+F1 score - mean: 0.52620
+F1 score - std: 0.00983
+
+Train time: 952.477136
+Test time: 0.781513
+
+Best Parameters: {'base_outdim': 64, 'drop_rate': 0.3, 'k': 4, 'layer': 17}
+
+
+2022-12-05 12:57:20.714344
+DANet - prefix_k67_s112_1500k_f66
+
+Log Loss - mean: 0.70645
+Log Loss - std: 0.01554
+AUC - mean: 0.52306
+AUC - std: 0.01495
+Accuracy - mean: 0.52620
+Accuracy - std: 0.00983
+F1 score - mean: 0.52620
+F1 score - std: 0.00983
+
+Train time: 964.236460
+Test time: 0.764741
+
+Best Parameters: {'base_outdim': 64, 'drop_rate': 0.3, 'k': 4, 'layer': 17}
+
+
+

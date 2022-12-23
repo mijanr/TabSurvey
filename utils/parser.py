@@ -8,7 +8,7 @@ def get_parser():
                                            formatter_class=configargparse.ArgumentDefaultsHelpFormatter)
 
     parser.add('-config', '--config', required=False, is_config_file_arg=True, help='config file path',
-               default="config/k80.yml")  # kddcup99 covertype california_housing adult higgs
+               default="config/prefix_k67_s112_1500k_f66.yml")  # kddcup99 covertype california_housing adult higgs
 
     parser.add('--model_name', required=True, help="Name of the model that should be trained")
     parser.add('--dataset', required=True, help="Name of the dataset that will be used")
@@ -66,7 +66,7 @@ def get_attribution_parser():
     parser = get_parser()
 
     parser.add('-paramsfile', '--paramsfile', required=False, is_config_file_arg=True, help='parameter file path',
-               default="config/adult_params.yml")  # kddcup99 covertype california_housing adult higgs
+               default="config/prefix_k67_s112_1500k_f66.yml")  # kddcup99 covertype california_housing adult higgs
 
     parser.add('-parameters', '--parameters', type=yaml.safe_load, help='parameter values')
 
