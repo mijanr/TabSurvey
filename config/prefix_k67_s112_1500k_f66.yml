@@ -1,5 +1,5 @@
 # General parameters
-dataset: k80
+dataset: prefix_k67_s112_1500k_f66
 model_name: DANet # LinearModel, KNN, SVM, DecisionTree, RandomForest, XGBoost, CatBoost, LightGBM, ModelTree
                 # MLP, TabNet, VIME, TabTransformer, RLN, DNFNet, STG, NAM, DeepFM, SAINT
 objective: binary # Don't change
@@ -12,7 +12,7 @@ gpu_ids: [0] #[0, 1]
 data_parallel: True
 
 # Optuna parameters - https://optuna.org/
-n_trials: 200
+n_trials: 10
 direction: maximize
 
 # Cross validation parameters
@@ -29,7 +29,7 @@ one_hot_encode: False
 batch_size: 128
 val_batch_size: 256
 early_stopping_rounds: 20
-epochs: 1000
+epochs: 500
 logging_period: 100
 
 # About the data

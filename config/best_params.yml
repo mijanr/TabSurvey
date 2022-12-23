@@ -105,11 +105,11 @@ parameters: {
             dropout: 0.6
         },
         DANet: {
-            layer: 8,
-            base_outdim: 96,
-            k: 4,
-            drop_rate: 0
-        },
+            base_outdim: 64, 
+            drop_rate: 0.3, 
+            k: 4, 
+            layer: 17
+            },
     },
     CaliforniaHousing: {
         LinearModel: { },
