@@ -1,0 +1,18 @@
+2023-01-30 16:04:01.422514
+DeepGBM - prefix_k67_s112_1500k_f_list
+
+Log Loss - mean: 0.69881
+Log Loss - std: 0.00135
+AUC - mean: 0.49669
+AUC - std: 0.00751
+Accuracy - mean: 0.49636
+Accuracy - std: 0.01283
+F1 score - mean: 0.49636
+F1 score - std: 0.01283
+
+Train time: 39.162729
+Test time: 0.150365
+
+Best Parameters: {'loss_de': 4, 'loss_dr': 0.7, 'maxleaf': 128, 'n_trees': 100}
+
+

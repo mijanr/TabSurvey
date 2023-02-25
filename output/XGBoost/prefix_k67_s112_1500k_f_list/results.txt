@@ -1,0 +1,18 @@
+2023-01-30 14:14:02.462203
+XGBoost - prefix_k67_s112_1500k_f_list
+
+Log Loss - mean: 0.74588
+Log Loss - std: 0.00927
+AUC - mean: 0.50582
+AUC - std: 0.00835
+Accuracy - mean: 0.50754
+Accuracy - std: 0.01236
+F1 score - mean: 0.50754
+F1 score - std: 0.01236
+
+Train time: 5.447732
+Test time: 0.028023
+
+Best Parameters: {'alpha': 3.1494372843948024e-05, 'eta': 0.17112356450883046, 'lambda': 2.7416538472367932e-08, 'max_depth': 7, 'verbosity': 1, 'tree_method': 'gpu_hist', 'gpu_id': 0, 'objective': 'binary:logistic', 'eval_metric': 'auc'}
+
+

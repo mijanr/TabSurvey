@@ -1,0 +1,18 @@
+2023-01-30 14:54:07.785366
+RandomForest - prefix_k67_s112_1500k_f_list
+
+Log Loss - mean: 0.69626
+Log Loss - std: 0.00204
+AUC - mean: 0.49782
+AUC - std: 0.01799
+Accuracy - mean: 0.50246
+Accuracy - std: 0.01495
+F1 score - mean: 0.50246
+F1 score - std: 0.01495
+
+Train time: 0.015102
+Test time: 0.002755
+
+Best Parameters: {'max_depth': 4, 'n_estimators': 5}
+
+

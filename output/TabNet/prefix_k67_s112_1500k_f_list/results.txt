@@ -1,0 +1,18 @@
+2023-01-30 15:58:32.950211
+TabNet - prefix_k67_s112_1500k_f_list
+
+Log Loss - mean: 0.69151
+Log Loss - std: 0.00104
+AUC - mean: 0.53010
+AUC - std: 0.01410
+Accuracy - mean: 0.52379
+Accuracy - std: 0.01184
+F1 score - mean: 0.52379
+F1 score - std: 0.01184
+
+Train time: 886.896315
+Test time: 2.130041
+
+Best Parameters: {'cat_emb_dim': 3, 'gamma': 1.5195335011059963, 'mask_type': 'entmax', 'momentum': 0.002887409232913997, 'n_d': 13, 'n_independent': 3, 'n_shared': 4, 'n_steps': 10, 'n_a': 13, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cpu')}
+
+
