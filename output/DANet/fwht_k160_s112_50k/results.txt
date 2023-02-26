@@ -1,0 +1,18 @@
+2023-02-26 02:28:44.649284
+DANet - fwht_k160_s112_50k
+
+Log Loss - mean: 0.69329
+Log Loss - std: 0.00016
+AUC - mean: 0.50288
+AUC - std: 0.00432
+Accuracy - mean: 0.50274
+Accuracy - std: 0.00076
+F1 score - mean: 0.50274
+F1 score - std: 0.00076
+
+Train time: 5376.738000
+Test time: 6.888013
+
+Best Parameters: {'base_outdim': 64, 'drop_rate': 0.2, 'k': 4, 'layer': 19}
+
+

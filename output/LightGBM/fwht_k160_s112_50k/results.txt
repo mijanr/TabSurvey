@@ -1,0 +1,18 @@
+2023-02-26 08:42:27.275610
+LightGBM - fwht_k160_s112_50k
+
+Log Loss - mean: 0.69311
+Log Loss - std: 0.00012
+AUC - mean: 0.50724
+AUC - std: 0.00341
+Accuracy - mean: 0.50800
+Accuracy - std: 0.00172
+F1 score - mean: 0.50800
+F1 score - std: 0.00172
+
+Train time: 4.658067
+Test time: 0.539787
+
+Best Parameters: {'lambda_l1': 2.0244609518891293e-05, 'lambda_l2': 0.03734651114416751, 'learning_rate': 0.09328574729552985, 'num_leaves': 2, 'verbosity': -1, 'objective': 'binary', 'metric': 'auc'}
+
+

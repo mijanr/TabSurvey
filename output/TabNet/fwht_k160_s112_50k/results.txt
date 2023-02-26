@@ -1,0 +1,19 @@
+2023-02-26 14:28:06.108813
+TabNet - fwht_k160_s112_50k
+
+Log Loss - mean: 0.69303
+Log Loss - std: 0.00007
+AUC - mean: 0.50548
+AUC - std: 0.00520
+Accuracy - mean: 0.50520
+Accuracy - std: 0.00436
+F1 score - mean: 0.50520
+F1 score - std: 0.00436
+
+Train time: 2324.549562
+Test time: 7.581447
+
+Best Parameters: {'cat_emb_dim': 2, 'gamma': 1.5157516896548713, 'mask_type': 'sparsemax', 'momentum': 0.0045401654486308006, 'n_d': 39, 'n_independent': 1, 'n_shared': 3, 'n_steps': 4, 'n_a': 39, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cpu')}
+
+
+----------

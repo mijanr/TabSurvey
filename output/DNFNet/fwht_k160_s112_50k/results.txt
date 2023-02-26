@@ -1,0 +1,18 @@
+2023-02-26 21:57:18.279393
+DNFNet - fwht_k160_s112_50k
+
+Log Loss - mean: 0.69361
+Log Loss - std: 0.00035
+AUC - mean: 0.50072
+AUC - std: 0.00569
+Accuracy - mean: 0.50142
+Accuracy - std: 0.00227
+F1 score - mean: 0.50142
+F1 score - std: 0.00227
+
+Train time: 3837.326560
+Test time: 7.603910
+
+Best Parameters: {'elastic_net_beta': 0.7, 'n_formulas': 128}
+
+

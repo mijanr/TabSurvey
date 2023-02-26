@@ -1,0 +1,18 @@
+2023-02-26 21:57:51.997726
+RandomForest - fwht_k160_s112_50k
+
+Log Loss - mean: 0.69321
+Log Loss - std: 0.00006
+AUC - mean: 0.49826
+AUC - std: 0.00267
+Accuracy - mean: 0.50050
+Accuracy - std: 0.00325
+F1 score - mean: 0.50050
+F1 score - std: 0.00325
+
+Train time: 0.500616
+Test time: 0.011496
+
+Best Parameters: {'max_depth': 3, 'n_estimators': 15}
+
+
