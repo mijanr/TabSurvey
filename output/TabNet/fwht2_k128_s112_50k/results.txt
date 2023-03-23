@@ -1,0 +1,14 @@
+2023-03-12 03:05:30.034961
+TabNet - fwht2_k128_s112_50k
+
+MSE - mean: 32.27545
+MSE - std: 0.08995
+R2 - mean: -0.00160
+R2 - std: 0.00052
+
+Train time: 2747.214208
+Test time: 5.295147
+
+Best Parameters: {'cat_emb_dim': 1, 'gamma': 1.9958259469819417, 'mask_type': 'entmax', 'momentum': 0.1282454624144874, 'n_d': 10, 'n_independent': 3, 'n_shared': 2, 'n_steps': 4, 'n_a': 10, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cpu')}
+
+

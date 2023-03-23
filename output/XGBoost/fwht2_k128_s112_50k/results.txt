@@ -1,0 +1,14 @@
+2023-03-12 03:08:03.702689
+XGBoost - fwht2_k128_s112_50k
+
+MSE - mean: 32.24838
+MSE - std: 0.08823
+R2 - mean: -0.00076
+R2 - std: 0.00055
+
+Train time: 6.007510
+Test time: 0.098456
+
+Best Parameters: {'alpha': 0.17297238392535896, 'eta': 0.02519189116623239, 'lambda': 1.1654180426565904e-05, 'max_depth': 2, 'verbosity': 1, 'tree_method': 'gpu_hist', 'gpu_id': 0, 'objective': 'reg:squarederror', 'eval_metric': 'rmse'}
+
+

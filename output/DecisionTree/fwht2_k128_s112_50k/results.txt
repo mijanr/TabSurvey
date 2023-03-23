@@ -1,0 +1,14 @@
+2023-03-12 03:08:14.673568
+DecisionTree - fwht2_k128_s112_50k
+
+MSE - mean: 32.24199
+MSE - std: 0.08009
+R2 - mean: -0.00056
+R2 - std: 0.00075
+
+Train time: 0.078930
+Test time: 0.000976
+
+Best Parameters: {'max_depth': 2}
+
+

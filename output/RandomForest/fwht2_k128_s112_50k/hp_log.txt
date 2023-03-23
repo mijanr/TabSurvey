@@ -1,0 +1,120 @@
+2023-03-12 16:51:29.262191
+Parameters: {'max_depth': 2, 'n_estimators': 79}
+
+MSE - mean: 32.23442
+MSE - std: 0.08651
+R2 - mean: -0.00032
+R2 - std: 0.00021
+
+Train time: 6.051888
+Test time: 0.026355
+
+---------------------------------------
+2023-03-12 16:51:30.443282
+Parameters: {'max_depth': 3, 'n_estimators': 30}
+
+MSE - mean: 32.23544
+MSE - std: 0.08137
+R2 - mean: -0.00036
+R2 - std: 0.00034
+
+Train time: 3.077154
+Test time: 0.011663
+
+---------------------------------------
+2023-03-12 16:51:33.354289
+Parameters: {'max_depth': 8, 'n_estimators': 36}
+
+MSE - mean: 32.26639
+MSE - std: 0.09596
+R2 - mean: -0.00132
+R2 - std: 0.00043
+
+Train time: 9.394539
+Test time: 0.016127
+
+---------------------------------------
+2023-03-12 16:51:34.478483
+Parameters: {'max_depth': 6, 'n_estimators': 9}
+
+MSE - mean: 32.27131
+MSE - std: 0.07814
+R2 - mean: -0.00147
+R2 - std: 0.00053
+
+Train time: 1.533333
+Test time: 0.006724
+
+---------------------------------------
+2023-03-12 16:51:35.767117
+Parameters: {'max_depth': 8, 'n_estimators': 7}
+
+MSE - mean: 32.36643
+MSE - std: 0.11206
+R2 - mean: -0.00442
+R2 - std: 0.00150
+
+Train time: 1.426023
+Test time: 0.006936
+
+---------------------------------------
+2023-03-12 16:51:40.095904
+Parameters: {'max_depth': 8, 'n_estimators': 61}
+
+MSE - mean: 32.25812
+MSE - std: 0.07591
+R2 - mean: -0.00106
+R2 - std: 0.00053
+
+Train time: 16.104340
+Test time: 0.022545
+
+---------------------------------------
+2023-03-12 16:51:40.814307
+Parameters: {'max_depth': 4, 'n_estimators': 6}
+
+MSE - mean: 32.25589
+MSE - std: 0.09755
+R2 - mean: -0.00099
+R2 - std: 0.00032
+
+Train time: 0.609093
+Test time: 0.005722
+
+---------------------------------------
+2023-03-12 16:51:42.535498
+Parameters: {'max_depth': 2, 'n_estimators': 87}
+
+MSE - mean: 32.23433
+MSE - std: 0.08692
+R2 - mean: -0.00032
+R2 - std: 0.00020
+
+Train time: 5.962198
+Test time: 0.019103
+
+---------------------------------------
+2023-03-12 16:51:45.616699
+Parameters: {'max_depth': 10, 'n_estimators': 30}
+
+MSE - mean: 32.29358
+MSE - std: 0.09322
+R2 - mean: -0.00216
+R2 - std: 0.00028
+
+Train time: 9.334556
+Test time: 0.016245
+
+---------------------------------------
+2023-03-12 16:51:46.935185
+Parameters: {'max_depth': 7, 'n_estimators': 15}
+
+MSE - mean: 32.26596
+MSE - std: 0.09815
+R2 - mean: -0.00130
+R2 - std: 0.00058
+
+Train time: 3.095754
+Test time: 0.009193
+
+---------------------------------------

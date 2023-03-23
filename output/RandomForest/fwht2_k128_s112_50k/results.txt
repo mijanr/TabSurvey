@@ -1,0 +1,14 @@
+2023-03-12 16:51:48.617399
+RandomForest - fwht2_k128_s112_50k
+
+MSE - mean: 32.23462
+MSE - std: 0.08676
+R2 - mean: -0.00033
+R2 - std: 0.00022
+
+Train time: 5.851323
+Test time: 0.019513
+
+Best Parameters: {'max_depth': 2, 'n_estimators': 87}
+
+

@@ -1,0 +1,14 @@
+2023-03-12 16:51:25.579138
+DANet - fwht2_k128_s112_50k
+
+MSE - mean: 58.97380
+MSE - std: 0.86234
+R2 - mean: -0.83012
+R2 - std: 0.02636
+
+Train time: 4606.829569
+Test time: 2.228175
+
+Best Parameters: {'base_outdim': 96, 'drop_rate': 0, 'k': 3, 'layer': 9}
+
+

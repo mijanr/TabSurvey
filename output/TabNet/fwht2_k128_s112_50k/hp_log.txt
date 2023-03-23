@@ -1,0 +1,120 @@
+2023-03-11 19:10:04.885321
+Parameters: {'n_d': 54, 'n_steps': 8, 'gamma': 1.099363437973718, 'cat_emb_dim': 2, 'n_independent': 4, 'n_shared': 5, 'momentum': 0.02139513087581676, 'mask_type': 'sparsemax', 'n_a': 54, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cpu')}
+
+MSE - mean: 32.36659
+MSE - std: 0.08014
+R2 - mean: -0.00443
+R2 - std: 0.00173
+
+Train time: 9105.823240
+Test time: 15.687200
+
+---------------------------------------
+2023-03-11 19:24:10.550794
+Parameters: {'n_d': 58, 'n_steps': 3, 'gamma': 1.0191534532595041, 'cat_emb_dim': 1, 'n_independent': 2, 'n_shared': 1, 'momentum': 0.32419253724585606, 'mask_type': 'entmax', 'n_a': 58, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cpu')}
+
+MSE - mean: 32.32894
+MSE - std: 0.06050
+R2 - mean: -0.00326
+R2 - std: 0.00133
+
+Train time: 2024.727587
+Test time: 4.107336
+
+---------------------------------------
+2023-03-11 21:06:38.458068
+Parameters: {'n_d': 46, 'n_steps': 10, 'gamma': 1.797951326023838, 'cat_emb_dim': 3, 'n_independent': 5, 'n_shared': 4, 'momentum': 0.0010633393322971184, 'mask_type': 'sparsemax', 'n_a': 46, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cpu')}
+
+MSE - mean: 32.47258
+MSE - std: 0.12648
+R2 - mean: -0.00772
+R2 - std: 0.00332
+
+Train time: 14734.616236
+Test time: 18.528291
+
+---------------------------------------
+2023-03-11 21:54:56.208302
+Parameters: {'n_d': 46, 'n_steps': 7, 'gamma': 1.761263377111646, 'cat_emb_dim': 3, 'n_independent': 4, 'n_shared': 3, 'momentum': 0.07475606656781322, 'mask_type': 'sparsemax', 'n_a': 46, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cpu')}
+
+MSE - mean: 32.39658
+MSE - std: 0.12613
+R2 - mean: -0.00536
+R2 - std: 0.00306
+
+Train time: 6941.932044
+Test time: 11.369878
+
+---------------------------------------
+2023-03-11 22:54:30.578084
+Parameters: {'n_d': 62, 'n_steps': 7, 'gamma': 1.940729723681858, 'cat_emb_dim': 2, 'n_independent': 3, 'n_shared': 3, 'momentum': 0.00210196824536535, 'mask_type': 'sparsemax', 'n_a': 62, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cpu')}
+
+MSE - mean: 32.44711
+MSE - std: 0.12926
+R2 - mean: -0.00694
+R2 - std: 0.00617
+
+Train time: 8566.159633
+Test time: 11.200972
+
+---------------------------------------
+2023-03-11 23:44:12.768707
+Parameters: {'n_d': 20, 'n_steps': 10, 'gamma': 1.306553994884843, 'cat_emb_dim': 2, 'n_independent': 1, 'n_shared': 4, 'momentum': 0.023188253619061783, 'mask_type': 'entmax', 'n_a': 20, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cpu')}
+
+MSE - mean: 32.32581
+MSE - std: 0.08450
+R2 - mean: -0.00316
+R2 - std: 0.00083
+
+Train time: 7143.638635
+Test time: 12.745166
+
+---------------------------------------
+2023-03-12 00:03:09.727541
+Parameters: {'n_d': 10, 'n_steps': 4, 'gamma': 1.9958259469819417, 'cat_emb_dim': 1, 'n_independent': 3, 'n_shared': 2, 'momentum': 0.1282454624144874, 'mask_type': 'entmax', 'n_a': 10, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cpu')}
+
+MSE - mean: 32.27545
+MSE - std: 0.08995
+R2 - mean: -0.00160
+R2 - std: 0.00052
+
+Train time: 2722.850886
+Test time: 5.298892
+
+---------------------------------------
+2023-03-12 00:47:24.309736
+Parameters: {'n_d': 46, 'n_steps': 10, 'gamma': 1.0592939998295483, 'cat_emb_dim': 2, 'n_independent': 1, 'n_shared': 4, 'momentum': 0.33869770275215744, 'mask_type': 'sparsemax', 'n_a': 46, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cpu')}
+
+MSE - mean: 32.41403
+MSE - std: 0.04503
+R2 - mean: -0.00590
+R2 - std: 0.00249
+
+Train time: 6356.669037
+Test time: 13.389671
+
+---------------------------------------
+2023-03-12 01:51:53.028012
+Parameters: {'n_d': 31, 'n_steps': 7, 'gamma': 1.6058335398554577, 'cat_emb_dim': 1, 'n_independent': 5, 'n_shared': 4, 'momentum': 0.02279365318480344, 'mask_type': 'entmax', 'n_a': 31, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cpu')}
+
+MSE - mean: 32.31700
+MSE - std: 0.09334
+R2 - mean: -0.00289
+R2 - std: 0.00187
+
+Train time: 9270.678029
+Test time: 12.990203
+
+---------------------------------------
+2023-03-12 02:46:22.947163
+Parameters: {'n_d': 11, 'n_steps': 9, 'gamma': 1.1390532523316597, 'cat_emb_dim': 2, 'n_independent': 3, 'n_shared': 5, 'momentum': 0.014743028000884865, 'mask_type': 'sparsemax', 'n_a': 11, 'cat_idxs': [], 'cat_dims': [], 'device_name': device(type='cpu')}
+
+MSE - mean: 32.30214
+MSE - std: 0.08870
+R2 - mean: -0.00243
+R2 - std: 0.00125
+
+Train time: 7833.940549
+Test time: 12.697356
+
+---------------------------------------

@@ -1,0 +1,14 @@
+2023-03-11 18:06:38.700287
+LightGBM - fwht2_k128_s112_50k
+
+MSE - mean: 32.22558
+MSE - std: 0.09256
+R2 - mean: -0.00005
+R2 - std: 0.00027
+
+Train time: 2.633399
+Test time: 0.113284
+
+Best Parameters: {'lambda_l1': 9.392450587073023e-07, 'lambda_l2': 5.101164285290855e-05, 'learning_rate': 0.04744153981679941, 'num_leaves': 6, 'verbosity': -1, 'objective': 'regression', 'metric': 'mse'}
+
+

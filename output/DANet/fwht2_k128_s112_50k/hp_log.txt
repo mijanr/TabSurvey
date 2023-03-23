@@ -1,0 +1,120 @@
+2023-03-12 03:56:01.036210
+Parameters: {'layer': 13, 'base_outdim': 64, 'k': 8, 'drop_rate': 0.1}
+
+MSE - mean: 58.98723
+MSE - std: 0.85671
+R2 - mean: -0.83054
+R2 - std: 0.02625
+
+Train time: 6853.932125
+Test time: 5.046075
+
+---------------------------------------
+2023-03-12 04:25:50.781641
+Parameters: {'layer': 11, 'base_outdim': 64, 'k': 4, 'drop_rate': 0}
+
+MSE - mean: 59.00690
+MSE - std: 0.84358
+R2 - mean: -0.83115
+R2 - std: 0.02585
+
+Train time: 4291.810119
+Test time: 2.668906
+
+---------------------------------------
+2023-03-12 07:26:07.708018
+Parameters: {'layer': 31, 'base_outdim': 96, 'k': 5, 'drop_rate': 0.3}
+
+MSE - mean: 58.99309
+MSE - std: 0.83717
+R2 - mean: -0.83072
+R2 - std: 0.02574
+
+Train time: 25944.886709
+Test time: 11.159013
+
+---------------------------------------
+2023-03-12 08:44:11.626300
+Parameters: {'layer': 19, 'base_outdim': 64, 'k': 8, 'drop_rate': 0.1}
+
+MSE - mean: 58.99591
+MSE - std: 0.82617
+R2 - mean: -0.83081
+R2 - std: 0.02545
+
+Train time: 11231.943261
+Test time: 7.515816
+
+---------------------------------------
+2023-03-12 10:02:34.715923
+Parameters: {'layer': 16, 'base_outdim': 96, 'k': 5, 'drop_rate': 0.1}
+
+MSE - mean: 58.97899
+MSE - std: 0.82617
+R2 - mean: -0.83028
+R2 - std: 0.02536
+
+Train time: 11279.664577
+Test time: 5.979064
+
+---------------------------------------
+2023-03-12 10:34:43.318212
+Parameters: {'layer': 9, 'base_outdim': 96, 'k': 3, 'drop_rate': 0}
+
+MSE - mean: 58.97380
+MSE - std: 0.86234
+R2 - mean: -0.83012
+R2 - std: 0.02636
+
+Train time: 4625.046757
+Test time: 2.266696
+
+---------------------------------------
+2023-03-12 11:53:43.250703
+Parameters: {'layer': 29, 'base_outdim': 64, 'k': 6, 'drop_rate': 0.1}
+
+MSE - mean: 58.97743
+MSE - std: 0.83031
+R2 - mean: -0.83024
+R2 - std: 0.02544
+
+Train time: 11364.898103
+Test time: 8.834069
+
+---------------------------------------
+2023-03-12 13:30:21.151214
+Parameters: {'layer': 19, 'base_outdim': 96, 'k': 4, 'drop_rate': 0}
+
+MSE - mean: 58.98789
+MSE - std: 0.82244
+R2 - mean: -0.83056
+R2 - std: 0.02531
+
+Train time: 13907.038420
+Test time: 5.507516
+
+---------------------------------------
+2023-03-12 14:35:52.688730
+Parameters: {'layer': 15, 'base_outdim': 96, 'k': 8, 'drop_rate': 0.3}
+
+MSE - mean: 59.00279
+MSE - std: 0.82354
+R2 - mean: -0.83102
+R2 - std: 0.02533
+
+Train time: 9425.095234
+Test time: 8.393453
+
+---------------------------------------
+2023-03-12 16:19:24.766273
+Parameters: {'layer': 19, 'base_outdim': 64, 'k': 7, 'drop_rate': 0.3}
+
+MSE - mean: 58.99841
+MSE - std: 0.83849
+R2 - mean: -0.83089
+R2 - std: 0.02579
+
+Train time: 14900.249530
+Test time: 6.710851
+
+---------------------------------------
