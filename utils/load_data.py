@@ -199,7 +199,12 @@ def load_data(args):
         df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
         X = df.iloc[:, :-1].to_numpy()
         y = df.iloc[:, -1].to_numpy()
-
+    elif args.dataset == 'fwht2_k128_s112_50k':
+        path = "./data/fwht2.k128.s112.50k.csv.gz"
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
+        df = df.iloc[:, 0:129]
+        X = df.iloc[:, :-1].to_numpy()
+        y = df.iloc[:, -1].to_numpy()
         
     else:
         raise AttributeError("Dataset \"" + args.dataset + "\" not available")
