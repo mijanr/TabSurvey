@@ -1,0 +1,18 @@
+2023-03-25 01:11:27.733953
+LightGBM - simple_k160_s221_100k_f75_selected_phik_10
+
+Log Loss - mean: 0.68942
+Log Loss - std: 0.00265
+AUC - mean: 0.54988
+AUC - std: 0.01332
+Accuracy - mean: 0.53084
+Accuracy - std: 0.01063
+F1 score - mean: 0.53084
+F1 score - std: 0.01063
+
+Train time: 1.560716
+Test time: 0.044399
+
+Best Parameters: {'lambda_l1': 1.2403007556087093e-06, 'lambda_l2': 2.331172324444539e-08, 'learning_rate': 0.11120120900612006, 'num_leaves': 2, 'verbosity': -1, 'objective': 'binary', 'metric': 'auc'}
+
+
