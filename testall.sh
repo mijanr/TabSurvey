@@ -18,23 +18,23 @@ MODELS=( #
         # ["LinearModel"]=$SKLEARN_ENV
         #  ["KNN"]=$SKLEARN_ENV
         #  ["SVM"]=$SKLEARN_ENV
-        #  ["DecisionTree"]=$SKLEARN_ENV
+        #["DecisionTree"]=$SKLEARN_ENV
         #["RandomForest"]=$SKLEARN_ENV
-        #   ["XGBoost"]=$GBDT_ENV
-        #  ["CatBoost"]=$GBDT_ENV
-        # ["LightGBM"]=$GBDT_ENV
+        #["XGBoost"]=$GBDT_ENV
+        #["CatBoost"]=$GBDT_ENV
+        #["LightGBM"]=$GBDT_ENV
         #  ["MLP"]=$TORCH_ENV
-        #  ["TabNet"]=$TORCH_ENV
+        #["TabNet"]=$TORCH_ENV
         #  ["VIME"]=$TORCH_ENV
-        #  ["TabTransformer"]=$TORCH_ENV
+        #["TabTransformer"]=$TORCH_ENV
         #  ["ModelTree"]=$GBDT_ENV
          #["NODE"]=$TORCH_ENV
-        # ["DeepGBM"]=$TORCH_ENV
+        #["DeepGBM"]=$TORCH_ENV
         #  ["RLN"]=$KERAS_ENV
-        # ["DNFNet"]=$KERAS_ENV
+        #["DNFNet"]=$KERAS_ENV
         #  ["STG"]=$TORCH_ENV
          # ["NAM"]=$TORCH_ENV
-        #  ["DeepFM"]=$TORCH_ENV
+         #["DeepFM"]=$TORCH_ENV
         #  ["SAINT"]=$TORCH_ENV
          ["DANet"]=$TORCH_ENV
           )
@@ -52,8 +52,11 @@ CONFIGS=( #"config/k80.yml"
           #"config/prefix_k67_s112_1500k_f66_selected.yml"
           #"config/prefix_k67_s112_1500k_f66_selected_10.yml"
           #"config/range_k67_s112_1500k_f83_f2_38.yml"
-          "config/prefix_k67_s112_1500k_f_list.yml"
-          "config/range_k67_s112_1500k_f47_f2_52.yml"
+          # "config/prefix_k67_s112_1500k_f_list.yml"
+          # "config/range_k67_s112_1500k_f47_f2_52.yml"
+          #"config/fwht2_k128_s112_50k.yml"
+          #"config/simple_k160_s221_100k_f75_selected_phik.yml"
+          "config/simple_k160_s221_100k_f75_selected_phik_10.yml"
           #"config/k_67_s112_100k_f83.yml"
           #"config/k_67_s112_100k_f83_selected.yml"
           #"config/adult.yml"
