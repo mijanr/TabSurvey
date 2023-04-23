@@ -215,6 +215,51 @@ def load_data(args):
         df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
         X = df.iloc[:, :-1].to_numpy()
         y = df.iloc[:, -1].to_numpy()
+    elif args.dataset == '05_two_bits_k160_s221_1000k_f80_160':
+        path = "./data/05_two_bits.k160.s221.1000k.f80.csv.gz"
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
+        X = df.iloc[:, :-2].to_numpy()
+        y = df.iloc[:, -2].to_numpy()
+    elif args.dataset == '05_two_bits_k160_s221_1000k_f80_161':
+        path = "./data/05_two_bits.k160.s221.1000k.f80.csv.gz"
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
+        X = df.iloc[:, :-2].to_numpy()
+        y = df.iloc[:, -1].to_numpy()
+    elif args.dataset == '05_two_bits_k160_s221_1000k_f80_160_10k_samples':
+        path = "./data/05_two_bits.k160.s221.1000k.f80.csv.gz"
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
+        #choose 10k samples
+        df = df.sample(n=10000, random_state=42)
+        X = df.iloc[:, :-2].to_numpy()
+        y = df.iloc[:, -2].to_numpy()
+    elif args.dataset == '05_two_bits_k160_s221_1000k_f80_161_10k_samples':
+        path = "./data/05_two_bits.k160.s221.1000k.f80.csv.gz"
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
+        #choose 10k samples
+        df = df.sample(n=10000, random_state=42)
+        X = df.iloc[:, :-2].to_numpy()
+        y = df.iloc[:, -1].to_numpy() 
+    elif args.dataset == "05_two_bits_k160_s221_1000k_f80_160_1k_samples":
+        path = "./data/05_two_bits.k160.s221.1000k.f80.csv.gz"
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
+        #choose 1k samples
+        df = df.sample(n=1000, random_state=42)  
+        X = df.iloc[:, :-2].to_numpy()
+        y = df.iloc[:, -2].to_numpy()
+    elif args.dataset == "05_two_bits_k160_s221_1000k_f80_161_1k_samples":
+        path = "./data/05_two_bits.k160.s221.1000k.f80.csv.gz"
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
+        #choose 1k samples
+        df = df.sample(n=1000, random_state=42)
+        X = df.iloc[:, :-2].to_numpy()
+        y = df.iloc[:, -1].to_numpy()
+    elif args.dataset == "simple_k160_s221_100k_f75_1k_samples":
+        path = "./data/simple.k160.s221.100k.f75.csv.gz"
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
+        #choose 1k samples
+        df = df.sample(n=1000, random_state=42)
+        X = df.iloc[:, :-1].to_numpy()
+        y = df.iloc[:, -1].to_numpy()
 
     else:
         raise AttributeError("Dataset \"" + args.dataset + "\" not available")
