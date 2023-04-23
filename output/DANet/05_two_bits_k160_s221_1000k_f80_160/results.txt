@@ -1,0 +1,36 @@
+2023-04-10 11:34:08.847759
+DANet - 05_two_bits_k160_s221_1000k_f80_160
+
+Log Loss - mean: 0.69327
+Log Loss - std: 0.00017
+AUC - mean: 0.50222
+AUC - std: 0.00254
+Accuracy - mean: 0.50120
+Accuracy - std: 0.00085
+F1 score - mean: 0.50120
+F1 score - std: 0.00085
+
+Train time: 13091.003749
+Test time: 19.487890
+
+Best Parameters: {'base_outdim': 64, 'drop_rate': 0.3, 'k': 7, 'layer': 31}
+
+
+2023-04-13 22:20:23.379906
+DANet - 05_two_bits_k160_s221_1000k_f80_160
+
+Log Loss - mean: 0.69327
+Log Loss - std: 0.00017
+AUC - mean: 0.50222
+AUC - std: 0.00254
+Accuracy - mean: 0.50120
+Accuracy - std: 0.00085
+F1 score - mean: 0.50120
+F1 score - std: 0.00085
+
+Train time: 13065.418983
+Test time: 19.577277
+
+Best Parameters: {'base_outdim': 64, 'drop_rate': 0.3, 'k': 7, 'layer': 31}
+
+

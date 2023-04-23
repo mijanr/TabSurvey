@@ -1,0 +1,18 @@
+2023-04-14 12:41:49.012887
+DANet - 05_two_bits_k160_s221_1000k_f80_161_10k_samples
+
+Log Loss - mean: 0.71050
+Log Loss - std: 0.03047
+AUC - mean: 0.51469
+AUC - std: 0.01192
+Accuracy - mean: 0.50970
+Accuracy - std: 0.00602
+F1 score - mean: 0.50970
+F1 score - std: 0.00602
+
+Train time: 3568.913643
+Test time: 3.829203
+
+Best Parameters: {'base_outdim': 96, 'drop_rate': 0, 'k': 6, 'layer': 32}
+
+
