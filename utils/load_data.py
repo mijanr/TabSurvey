@@ -260,6 +260,11 @@ def load_data(args):
         df = df.sample(n=1000, random_state=42)
         X = df.iloc[:, :-1].to_numpy()
         y = df.iloc[:, -1].to_numpy()
+    elif args.dataset == "simple_k160_s221_100k_f75_exp":
+        path = "./data/simple.k160.s221.100k.f75.csv.gz"
+        df = pd.read_csv(path, compression='gzip', header=None, sep=' ')
+        X = df.iloc[:, :-1].to_numpy()
+        y = df.iloc[:, -1].to_numpy()
 
     else:
         raise AttributeError("Dataset \"" + args.dataset + "\" not available")
