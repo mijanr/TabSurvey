@@ -1,0 +1,160 @@
+2023-05-01 14:01:44.768976
+Parameters: {'layer': 14, 'base_outdim': 64, 'k': 8, 'drop_rate': 0.2}
+
+Log Loss - mean: 0.69416
+Log Loss - std: 0.00713
+AUC - mean: 0.56278
+AUC - std: 0.02587
+Accuracy - mean: 0.59200
+Accuracy - std: 0.03709
+F1 score - mean: 0.59200
+F1 score - std: 0.03709
+
+Train time: 72.264471
+Test time: 0.274420
+
+---------------------------------------
+2023-05-01 14:02:02.422094
+Parameters: {'layer': 8, 'base_outdim': 96, 'k': 5, 'drop_rate': 0.1}
+
+Log Loss - mean: 0.75297
+Log Loss - std: 0.11158
+AUC - mean: 0.55930
+AUC - std: 0.07242
+Accuracy - mean: 0.60400
+Accuracy - std: 0.04079
+F1 score - mean: 0.60400
+F1 score - std: 0.04079
+
+Train time: 41.474204
+Test time: 0.108584
+
+---------------------------------------
+2023-05-01 14:02:15.334357
+Parameters: {'layer': 8, 'base_outdim': 64, 'k': 3, 'drop_rate': 0.3}
+
+Log Loss - mean: 0.69992
+Log Loss - std: 0.01632
+AUC - mean: 0.52373
+AUC - std: 0.05363
+Accuracy - mean: 0.58400
+Accuracy - std: 0.04454
+F1 score - mean: 0.58400
+F1 score - std: 0.04454
+
+Train time: 30.047601
+Test time: 0.081219
+
+---------------------------------------
+2023-05-01 14:02:41.382131
+Parameters: {'layer': 12, 'base_outdim': 96, 'k': 6, 'drop_rate': 0.2}
+
+Log Loss - mean: 0.70695
+Log Loss - std: 0.03029
+AUC - mean: 0.50376
+AUC - std: 0.04762
+Accuracy - mean: 0.58800
+Accuracy - std: 0.02040
+F1 score - mean: 0.58800
+F1 score - std: 0.02040
+
+Train time: 60.937898
+Test time: 0.172673
+
+---------------------------------------
+2023-05-01 14:02:55.329348
+Parameters: {'layer': 9, 'base_outdim': 96, 'k': 4, 'drop_rate': 0.3}
+
+Log Loss - mean: 0.84448
+Log Loss - std: 0.24673
+AUC - mean: 0.53126
+AUC - std: 0.03702
+Accuracy - mean: 0.55200
+Accuracy - std: 0.02400
+F1 score - mean: 0.55200
+F1 score - std: 0.02400
+
+Train time: 32.349969
+Test time: 0.119746
+
+---------------------------------------
+2023-05-01 14:03:31.161034
+Parameters: {'layer': 18, 'base_outdim': 96, 'k': 6, 'drop_rate': 0.3}
+
+Log Loss - mean: 0.69056
+Log Loss - std: 0.00455
+AUC - mean: 0.55357
+AUC - std: 0.05613
+Accuracy - mean: 0.59600
+Accuracy - std: 0.02939
+F1 score - mean: 0.59600
+F1 score - std: 0.02939
+
+Train time: 84.006353
+Test time: 0.279010
+
+---------------------------------------
+2023-05-01 14:04:35.181575
+Parameters: {'layer': 30, 'base_outdim': 96, 'k': 8, 'drop_rate': 0}
+
+Log Loss - mean: 0.76098
+Log Loss - std: 0.13268
+AUC - mean: 0.55697
+AUC - std: 0.04604
+Accuracy - mean: 0.56800
+Accuracy - std: 0.03250
+F1 score - mean: 0.56800
+F1 score - std: 0.03250
+
+Train time: 148.940868
+Test time: 0.520618
+
+---------------------------------------
+2023-05-01 14:05:10.199675
+Parameters: {'layer': 16, 'base_outdim': 64, 'k': 6, 'drop_rate': 0.3}
+
+Log Loss - mean: 0.68726
+Log Loss - std: 0.00651
+AUC - mean: 0.57822
+AUC - std: 0.05303
+Accuracy - mean: 0.60400
+Accuracy - std: 0.03878
+F1 score - mean: 0.60400
+F1 score - std: 0.03878
+
+Train time: 80.454667
+Test time: 0.295945
+
+---------------------------------------
+2023-05-01 14:06:04.069313
+Parameters: {'layer': 20, 'base_outdim': 64, 'k': 8, 'drop_rate': 0}
+
+Log Loss - mean: 0.80714
+Log Loss - std: 0.22175
+AUC - mean: 0.56735
+AUC - std: 0.06305
+Accuracy - mean: 0.60400
+Accuracy - std: 0.03878
+F1 score - mean: 0.60400
+F1 score - std: 0.03878
+
+Train time: 122.668184
+Test time: 0.460675
+
+---------------------------------------
+2023-05-01 14:06:44.890720
+Parameters: {'layer': 31, 'base_outdim': 64, 'k': 3, 'drop_rate': 0.1}
+
+Log Loss - mean: 0.69113
+Log Loss - std: 0.00123
+AUC - mean: 0.53705
+AUC - std: 0.03154
+Accuracy - mean: 0.58800
+Accuracy - std: 0.02713
+F1 score - mean: 0.58800
+F1 score - std: 0.02713
+
+Train time: 93.081545
+Test time: 0.363674
+
+---------------------------------------
