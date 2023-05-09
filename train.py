@@ -2,6 +2,7 @@ import logging
 import sys
 
 import optuna
+import numpy as np
 
 from models import str2model
 from utils.load_data import load_data
@@ -11,6 +12,7 @@ from utils.io_utils import save_results_to_file, save_hyperparameters_to_file, s
 from utils.parser import get_parser, get_given_parameters_parser
 
 from sklearn.model_selection import KFold, StratifiedKFold  # , train_test_split
+
 
 
 def cross_validation(model, X, y, args, save_model=False):
@@ -25,11 +27,19 @@ def cross_validation(model, X, y, args, save_model=False):
         kf = StratifiedKFold(n_splits=args.num_splits, shuffle=args.shuffle, random_state=args.seed)
     else:
         raise NotImplementedError("Objective" + args.objective + "is not yet implemented.")
+    #implement own kfold where randomly chosen 1000 samples are used for training and the rest for validation
+    #this process will repeat args.num_splits times
+    def own_kf(X, y, n_splits=args.num_splits, shuffle=args.shuffle, random_state=args.seed):
+        for i in range(n_splits):
+            train_idx = np.random.choice(X.shape[0], 1000, replace=False)
+            test_idx = np.setdiff1d(np.arange(X.shape[0]), train_idx)
+            yield X[train_idx], y[train_idx], X[test_idx], y[test_idx]
 
-    for i, (train_index, test_index) in enumerate(kf.split(X, y)):
 
-        X_train, X_test = X[train_index], X[test_index]
-        y_train, y_test = y[train_index], y[test_index]
+    for i, (X_train, y_train, X_test, y_test) in enumerate(own_kf(X, y, n_splits=args.num_splits, shuffle=args.shuffle, random_state=args.seed)):
+
+        # X_train, X_test = X[train_index], X[test_index]
+        # y_train, y_test = y[train_index], y[test_index]
 
         # X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=0.05, random_state=args.seed)
 
